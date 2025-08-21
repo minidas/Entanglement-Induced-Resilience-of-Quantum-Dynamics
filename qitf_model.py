@@ -37,8 +37,10 @@ class QITFModel:
     def get_evolution_segment(self,segment_time=time_step):
         U0 = expm(-1j * segment_time * self.H)
         return U0
+    
+    def one_step_evolve(self,state):
+        return self.U0 @ state
 
-        
 def one_step_op_evo(O,U):
     """Apply one-step operator evolution using the unitary U."""
     return U.conj().T @ O @ U
