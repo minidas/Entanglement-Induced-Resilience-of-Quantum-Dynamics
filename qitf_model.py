@@ -152,14 +152,23 @@ class analog_QITF(QITFModel):
         self.H = self.get_hamiltonian( self.hx, self.hy, self.J, self.N)
     
         # permutation_factor = rand.normalvariate(0.01, variance)
+        try:
+            for delta_k in delta:
+                self.perm = delta_k * rand_local_PS(N,1)
+
+        except TypeError:
+            self.perm = delta * rand_local_PSCombin(N,N,1) # Add a permutation
+            self.perm += eta * SparsePauliOp.from_sparse_list(self.XX_tuples, num_qubits=self.N).to_matrix()  # Add a permutation
         
-        self.perm = delta * rand_local_PSCombin(N,N,1) # Add a permutation
-        self.perm += eta * SparsePauliOp.from_sparse_list(self.XX_tuples, num_qubits=self.N).to_matrix()  # Add a permutation
-        # self.perm = SparsePauliOp.from_list([('YY'+''.join(['I']*(N-2)), permutation_factor)]).to_matrix()  # Add a permutation
         self.H += self.perm
 
         self.U0 = self.get_evolution_segment(time_step)
         self.exact_model = exact_model
+
+    def long_time_error(self, initial_state, time):
+        exact_state = self.exact_model.get_evolution_segment(time) @ initial_state
+        analog_state = self.get_evolution_segment(time) @ initial_state
+        return np.linalg.norm(exact_state - analog_state)
 
     def plot_long_time(self, initial_state, mfc, label):
         state_distance = []
