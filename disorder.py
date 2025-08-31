@@ -19,14 +19,14 @@ def plot_disorder_trails(model, time, initial_state, variance=0.01 , num_trials=
     return y
 
 initial_state = Statevector.from_label('0'*exact_model.N).data
-plots_data = []
-for time in time_points:
-    plots_data.append(plot_disorder_trails(exact_model, time, initial_state))
+# plots_data = []
+# for time in time_points:
+#     plots_data.append(plot_disorder_trails(exact_model, time, initial_state))
 
-with open('data/disorder_data.pkl', 'wb') as f:
-    pickle.dump(plots_data, f)
-# with open('data/disorder_data.pkl', 'rb') as f:
-#     plots_data = pickle.load(f)
+# with open('data/disorder_data.pkl', 'wb') as f:
+#     pickle.dump(plots_data, f)
+with open('data/disorder_data.pkl', 'rb') as f:
+    plots_data = pickle.load(f)
 
 fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
@@ -34,6 +34,8 @@ ax = fig.add_subplot(111, projection='3d')
 # 为每个时间点绘制曲线
 for i,t in enumerate(time_points):
     ax.plot(range(num_trials), plots_data[i], marker='o', markersize=2, zs=t, zdir='y', linestyle='')
+     #每个时间垂直平面绘制彩色平面
+    ax.plot_surface(np.array([[0, num_trials], [0, num_trials]]), np.array([[t, t], [t, t]]), np.array([[-0.005, -0.005], [0.12,0.12]]), alpha=0.15,color="#ffff00")
 
 
 
@@ -41,10 +43,10 @@ for i,t in enumerate(time_points):
 ax.set_xlabel('Trials')
 ax.set_ylabel('Evolution Time')
 ax.set_zlabel('Error')
-ax.set_title('XXXXX')
+# ax.set_title('XXXXX')
 
 # 调整视角以获得更好的视觉效果
-ax.view_init(elev=20, azim=-35)
+ax.view_init(elev=17, azim=-35)
 
-plt.tight_layout()
+plt.savefig('Figures/disorder_plot.pdf', bbox_inches='tight', dpi=600)
 plt.show()
