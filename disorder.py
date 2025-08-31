@@ -49,4 +49,4 @@ ax.set_zlabel('Error')
 ax.view_init(elev=17, azim=-35)
 
 plt.savefig('Figures/disorder_plot.pdf', bbox_inches='tight', dpi=600)
-plt.show()
+# plt.show()
