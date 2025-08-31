@@ -144,7 +144,7 @@ def eigenvector_corresponding_to_maximal_eigenvalue(matrix):
 
 
 class analog_QITF(QITFModel):
-    def __init__(self, exact_model, variance):
+    def __init__(self, exact_model, delta=0.01,eta=0.01):
         self.hx = exact_model.hx
         self.hy = exact_model.hy
         self.J = exact_model.J
@@ -152,13 +152,23 @@ class analog_QITF(QITFModel):
         self.H = self.get_hamiltonian( self.hx, self.hy, self.J, self.N)
     
         # permutation_factor = rand.normalvariate(0.01, variance)
-        permutation_factor = 0.01
-        self.perm = permutation_factor*rand_local_PSCombin(N,N,2) # Add a permutation
-        # self.perm = SparsePauliOp.from_list([('YY'+''.join(['I']*(N-2)), permutation_factor)]).to_matrix()  # Add a permutation
+        try:
+            for delta_k in delta:
+                self.perm = delta_k * rand_local_PS(N,1)
+
+        except TypeError:
+            self.perm = delta * rand_local_PSCombin(N,N,1) # Add a permutation
+            self.perm += eta * SparsePauliOp.from_sparse_list(self.XX_tuples, num_qubits=self.N).to_matrix()  # Add a permutation
+        
         self.H += self.perm
 
         self.U0 = self.get_evolution_segment(time_step)
         self.exact_model = exact_model
+
+    def long_time_error(self, initial_state, time):
+        exact_state = self.exact_model.get_evolution_segment(time) @ initial_state
+        analog_state = self.get_evolution_segment(time) @ initial_state
+        return np.linalg.norm(exact_state - analog_state)
 
     def plot_long_time(self, initial_state, mfc, label):
         state_distance = []
@@ -194,24 +204,23 @@ def haar_random_state(n_qubits):
 
 if __name__ == "__main__":
     exact_model=QITFModel(hx=0.809,hy=0.9045,J=1,N=N)
-    analog_model = analog_QITF(exact_model, variance=0.01)
+    analog_model = analog_QITF(exact_model,eta=0)
 
     initial_state=Statevector.from_label('0'*N).data
-    # analog_model.plot_one_segment(initial_state, mfc='#66C999', label='Separable State')
-    analog_model.plot_long_time(initial_state, mfc='#66C999', label='Separable State')
+    analog_model.plot_one_segment(initial_state, mfc='#66C999', label='Separable State')
+    # analog_model.plot_long_time(initial_state, mfc='#66C999', label='Separable State')
 
     initial_state = haar_random_state(N)  # Generate a random state
-    analog_model.plot_long_time(initial_state, mfc='#5DBFE9', label='Entangled State')
+    analog_model.plot_one_segment(initial_state, mfc='#5DBFE9', label='Entangled State')
+    # analog_model.plot_long_time(initial_state, mfc='#5DBFE9', label='Entangled State')
 
     linear_curve=[]
     V_fro = np.linalg.norm(analog_model.perm, 'fro')/sqrt(d)
     for t in time:
         linear_curve.append(t*V_fro)
-    plt.plot(time[:-1], linear_curve[:-1], color='#397FC7', linestyle='dotted', label=r'$t\lambda\|V\|_{F}$')
-    # plt.plot(time[:-1], [V_fro*time_step]*num_steps, color='#397FC7', linestyle='dotted', label=r'$\delta t\lambda\|V\|_{F}$')
-    # plt.plot(time[:-1], scrambling_value,color='0.3',marker='o',markersize=5,mfc='#66C999',mec='k',linestyle='dashed',markeredgewidth=0.5)
+    # plt.plot(time[:-1], linear_curve[:-1], color='#397FC7', linestyle='dotted', label=r'$t\lambda\|V\|_{F}$')
+    plt.plot(time[:-1], [V_fro*time_step]*num_steps, color='#397FC7', linestyle='dotted', label=r'$\delta t\lambda\|V\|_{F}$')
     # plt.plot(time[:-1], simulation_error_state,color='0.3',mfc='#5DBFE9',marker='o',markersize=5,mec='k',linestyle='dashed',markeredgewidth=0.5)
-    # plt.plot(time[:-1], [average_case_commutator]*num_steps,color='#66C999',linestyle='dashed')
     # plt.plot(time[:-1], [Fro_bound]*num_steps,color='#397FC7',linestyle='dotted')
     plt.xlabel('Time')
     plt.ylabel('Analog Error')

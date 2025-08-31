@@ -1,8 +1,16 @@
 from qiskit.quantum_info import partial_trace,Statevector
 import numpy as np
 from qitf_model import QITFModel
+import matplotlib.pyplot as plt
+
 
 N=10
+final_time=6
+num_steps=60
+time_step=final_time/num_steps
+num_rand=256
+
+time=np.linspace(0,final_time,num_steps+1)
 
 def density_matrix(state):
     return np.outer(state,state.conj())
@@ -22,9 +30,13 @@ def RDM_entropy(state,k):
         entropy_list.append(von_neumann_entropy(rho))
     return entropy_list
 
-def plot_entropy(state,model : QITFModel,k,time=time,mfc='#F3A33A',label='entropy'):
+def entropy_data(state,model : QITFModel,k,time=time):
     entropy_list = []
     for i in time:
         entropy_list.append(RDM_entropy(state,k)[-1])
-        state = model.evolve(state)
-    plt.plot(time[:-1], entropy_list[:-1], marker=mfc, label=label)
+        state = model.one_step_evolve(state)
+    return entropy_list
+
+def plot_entropy(state,model : QITFModel,k,time=time,mfc='#F3A33A',label='entropy'):
+    entropy_list = entropy_data(state, model, k, time)
+    plt.plot(time[:-1], entropy_list[:-1], color=mfc, label=label,linestyle='dashed')
