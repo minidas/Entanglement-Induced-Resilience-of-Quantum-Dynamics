@@ -65,6 +65,8 @@ class analog_QD(Quantum_dot):
                   + YZ * qt.coefficient(self.time_dependent_coefficient_YZ))
 
     def time_dependent_coefficient_XZ(self,t):
-        return 0.5*tan(self.theta)*self.Omega*cos(self.DeltaE*t)
+        # return 0.5*tan(self.theta)*self.Omega*cos(self.DeltaE*t)
+        return 0.5
     def time_dependent_coefficient_YZ(self,t):
-        return -0.5*tan(self.theta)*self.Omega*sin(self.DeltaE*t)
+        # return -0.5*tan(self.theta)*self.Omega*sin(self.DeltaE*t)
+        return -0.5
