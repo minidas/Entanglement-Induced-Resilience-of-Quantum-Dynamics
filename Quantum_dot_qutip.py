@@ -43,13 +43,19 @@ def eigenvector_corresponding_to_maximal_eigenvalue(matrix):
 from math import sin, cos, tan
 
 class analog_QD(Quantum_dot):
-    def __init__(self, exact_model, J, theta, DeltaE):
+    def __init__(self, exact_model, h, J, theta, DeltaE):
         self.Omega = exact_model.Omega
+        self.h = h
         self.J = J
         self.theta = theta
         self.DeltaE = DeltaE
         self.N = exact_model.N
         self.exact_model = exact_model
+
+        #local pertubation
+        IZ = qt.tensor(
+            *[qt.sigmaz() if i == 1 else qt.qeye(2) for i in range(self.N)]
+        )
 
         ZZ = qt.tensor(
             *[qt.sigmaz() if i in [0,1] else qt.qeye(2) for i in range(self.N)]
@@ -60,13 +66,12 @@ class analog_QD(Quantum_dot):
         YZ = qt.tensor(
             *[qt.sigmay() if i == 0 else (qt.sigmaz() if i == 1 else qt.qeye(2)) for i in range(self.N)]
         )
-        self.H = (self.get_hamiltonian(self.Omega,self.N)+ 0.25 * J * ZZ 
+        self.H = (self.get_hamiltonian(self.Omega,self.N) 
+                  + h * IZ + 0.25 * J * ZZ 
                   + XZ * qt.coefficient(self.time_dependent_coefficient_XZ)
                   + YZ * qt.coefficient(self.time_dependent_coefficient_YZ))
 
     def time_dependent_coefficient_XZ(self,t):
-        # return 0.5*tan(self.theta)*self.Omega*cos(self.DeltaE*t)
-        return 0.5
+        return 0.5*tan(self.theta)*self.Omega*cos(self.DeltaE*t)
     def time_dependent_coefficient_YZ(self,t):
-        # return -0.5*tan(self.theta)*self.Omega*sin(self.DeltaE*t)
-        return -0.5
+        return -0.5*tan(self.theta)*self.Omega*sin(self.DeltaE*t)

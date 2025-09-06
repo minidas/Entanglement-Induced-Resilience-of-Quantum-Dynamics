@@ -20,7 +20,7 @@ def von_neumann_entropy(rho):
     eigenvalues = np.linalg.eigvalsh(rho)
     # 过滤掉接近零的特征值以避免数值问题
     non_zero_eigenvalues = eigenvalues[eigenvalues > 1e-10]
-    entropy = -np.sum(non_zero_eigenvalues * np.log(non_zero_eigenvalues))
+    entropy = -np.sum(non_zero_eigenvalues * np.log(non_zero_eigenvalues)/np.log(2))
     return entropy
 
 def RDM_entropy(state,k):
