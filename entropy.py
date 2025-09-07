@@ -23,17 +23,17 @@ def von_neumann_entropy(rho):
     entropy = -np.sum(non_zero_eigenvalues * np.log(non_zero_eigenvalues)/np.log(2))
     return entropy
 
-def RDM_entropy(state,k):
+def RDM_entropy(state,k,qubits=N):
     entropy_list=[]
     for i in range(k):
-        rho=partial_trace(Statevector(state),range(i+1,N))
+        rho=partial_trace(Statevector(state),range(i+1,qubits))
         entropy_list.append(von_neumann_entropy(rho))
     return entropy_list
 
-def entropy_data(state,model : QITFModel,k,time=time):
+def entropy_data(state,model : QITFModel,k,time=time,qubits=N):
     entropy_list = []
     for i in time:
-        entropy_list.append(RDM_entropy(state,k)[-1])
+        entropy_list.append(RDM_entropy(state,k,qubits)[-1])
         state = model.one_step_evolve(state)
     return entropy_list
 
