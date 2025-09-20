@@ -43,16 +43,20 @@ def eigenvector_corresponding_to_maximal_eigenvalue(matrix):
 from math import sin, cos, tan
 
 class analog_QD(Quantum_dot):
-    def __init__(self, exact_model, h, J, theta, DeltaE):
+    def __init__(self, exact_model, h, J, theta, DeltaE,epsilon):
         self.Omega = exact_model.Omega
         self.h = h
         self.J = J
         self.theta = theta
         self.DeltaE = DeltaE
+        self.epsilon = epsilon
         self.N = exact_model.N
         self.exact_model = exact_model
 
         #local pertubation
+        IX = qt.tensor(
+            *[qt.sigmax() if i == 0 else qt.qeye(2) for i in range(N)]
+        )
         IZ = qt.tensor(
             *[qt.sigmaz() if i == 1 else qt.qeye(2) for i in range(self.N)]
         )
@@ -67,7 +71,7 @@ class analog_QD(Quantum_dot):
             *[qt.sigmay() if i == 0 else (qt.sigmaz() if i == 1 else qt.qeye(2)) for i in range(self.N)]
         )
         self.H = (self.get_hamiltonian(self.Omega,self.N) 
-                  + h * IZ + 0.25 * J * ZZ 
+                  + h * IZ + 0.25 * J * ZZ + epsilon*self.Omega*IX
                   + XZ * qt.coefficient(self.time_dependent_coefficient_XZ)
                   + YZ * qt.coefficient(self.time_dependent_coefficient_YZ))
 
