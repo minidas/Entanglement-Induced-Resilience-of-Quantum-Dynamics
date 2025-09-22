@@ -43,11 +43,11 @@ def eigenvector_corresponding_to_maximal_eigenvalue(matrix):
 from math import sin, cos, tan
 
 class analog_QD(Quantum_dot):
-    def __init__(self, exact_model, h, J, theta, DeltaE,epsilon):
+    def __init__(self, exact_model, h, J, DeltaE,epsilon):
         self.Omega = exact_model.Omega
         self.h = h
         self.J = J
-        self.theta = theta
+        self.theta = J/2*DeltaE
         self.DeltaE = DeltaE
         self.epsilon = epsilon
         self.N = exact_model.N
