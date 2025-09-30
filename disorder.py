@@ -11,7 +11,7 @@ time_points = [0.5 , 2 , 3.5 , 5]
 
 exact_model = QITFModel(hx=0.809,J=1)
 
-def plot_disorder_trails(model, time, initial_state, variance=0.01 , num_trials=num_trials, num_terms=10):
+def plot_disorder_trails(model, time, initial_state, variance=0.1 , num_trials=num_trials, num_terms=10):
     y=[]
     for _ in tqdm(range(num_trials)):
         analog_model = analog_QITF(model, delta=[rand.normalvariate(0, variance) for _ in range(num_terms)], eta=0)
@@ -24,7 +24,7 @@ initial_state = Statevector.from_label('0'*exact_model.N).data
 #     plots_data.append(plot_disorder_trails(exact_model, time, initial_state))
 
 # with open('data/disorder_data.pkl', 'wb') as f:
-#     pickle.dump(plots_data, f)
+    # pickle.dump(plots_data, f)
 with open('data/disorder_data.pkl', 'rb') as f:
     plots_data = pickle.load(f)
 
@@ -32,10 +32,12 @@ fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
 
 # 为每个时间点绘制曲线
+colors = ["#F8A491", "#FA8BF4", "#89FACB", "#8F96FA"]
 for i,t in enumerate(time_points):
-    ax.plot(range(num_trials), plots_data[i], marker='o', markersize=2, zs=t, zdir='y', linestyle='')
+    ax.plot(range(num_trials), plots_data[i], marker='o', markersize=2, zs=t, zdir='y', linestyle='', color=colors[i])
+    ax.plot(range(num_trials), [t*np.sqrt(exact_model.N)*0.1 for _ in range(num_trials)], zs=t, zdir='y', linestyle='--', color=colors[i], label='Error Bound')
      #每个时间垂直平面绘制彩色平面
-    ax.plot_surface(np.array([[0, num_trials], [0, num_trials]]), np.array([[t, t], [t, t]]), np.array([[-0.005, -0.005], [0.12,0.12]]), alpha=0.15,color="#ffff00")
+    ax.plot_surface(np.array([[0, num_trials], [0, num_trials]]), np.array([[t, t], [t, t]]), np.array([[-0.005, -0.005], [1.7,1.7]]), alpha=0.15,color="#ffff00")
 
 
 
@@ -43,10 +45,14 @@ for i,t in enumerate(time_points):
 ax.set_xlabel('Trials')
 ax.set_ylabel('Evolution Time')
 ax.set_zlabel('Error')
+ax.set_ylim(0, 5.5)
+ax.set_zlim(0, 1.7)
+ax.set_xlim(0, num_trials)
+# ax.legend()
 # ax.set_title('XXXXX')
 
 # 调整视角以获得更好的视觉效果
 ax.view_init(elev=17, azim=-35)
 
 plt.savefig('Figures/disorder_plot.pdf', bbox_inches='tight', dpi=600)
-# plt.show()
+plt.show()

@@ -153,8 +153,9 @@ class analog_QITF(QITFModel):
     
         # permutation_factor = rand.normalvariate(0.01, variance)
         try:
+            self.perm = np.zeros((2**self.N,2**self.N),dtype='complex128')
             for delta_k in delta:
-                self.perm = delta_k * rand_local_PS(N,1)
+                self.perm += delta_k * rand_local_PS(N,1)
 
         except TypeError:
             self.perm = delta * rand_local_PSCombin(N,N,1) # Add a permutation
