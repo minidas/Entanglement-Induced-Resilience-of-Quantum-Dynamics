@@ -154,13 +154,14 @@ class analog_QITF(QITFModel):
         # perturbation_factor = rand.normalvariate(0.01, variance)
         try:
             self.perm = np.zeros((2**self.N,2**self.N),dtype='complex128')
-            for delta_k in delta:
-                self.perm += delta_k * rand_local_PS(N,1)
+            for i, delta_k in enumerate(delta):
+                # self.perm += delta_k * rand_local_PS(N,1)
+                self.perm += SparsePauliOp.from_sparse_list([('X', [i],delta_k)], num_qubits=self.N).to_matrix()
 
         except TypeError:
             self.perm = delta * rand_local_PSCombin(N,N,1) # Add a perturbation
-        
         self.perm += eta * SparsePauliOp.from_sparse_list(self.XX_tuples, num_qubits=self.N).to_matrix()  # Add an imperfection term
+        
         self.H += self.perm
 
         self.U0 = self.get_evolution_segment(time_step)
