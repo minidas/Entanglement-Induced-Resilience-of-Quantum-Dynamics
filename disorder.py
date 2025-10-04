@@ -32,11 +32,19 @@ fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
 
 # 为每个时间点绘制曲线
+colors = ["#F8A491", "#FA8BF4", "#89FACB", "#8F96FA"]
 for i,t in enumerate(time_points):
+<<<<<<< HEAD
     ax.plot(range(num_trials), plots_data[i], marker='o', markersize=2, zs=t, zdir='y', linestyle='')
     ax.plot(range(num_trials), [2*t*np.sqrt(exact_model.N)*0.01]*num_trials, markersize=2, zs=t, zdir='y', linestyle='dashed')
      #每个时间垂直平面绘制彩色平面
     ax.plot_surface(np.array([[0, num_trials], [0, num_trials]]), np.array([[t, t], [t, t]]), np.array([[-0.005, -0.005], [0.05,0.05]]), alpha=0.15,color="#ffff00")
+=======
+    ax.plot(range(num_trials), plots_data[i], marker='o', markersize=2, zs=t, zdir='y', linestyle='', color=colors[i])
+    ax.plot(range(num_trials), [t*np.sqrt(exact_model.N)*0.01 for _ in range(num_trials)], zs=t, zdir='y', linestyle='--', color=colors[i], label='Error Bound')
+     #每个时间垂直平面绘制彩色平面
+    ax.plot_surface(np.array([[0, num_trials], [0, num_trials]]), np.array([[t, t], [t, t]]), np.array([[-0.005, -0.005], [0.22,0.22]]), alpha=0.15,color="#ffff00")
+>>>>>>> 7490f2d7a384146f35930e0662f98d4972e3fa6c
 
 
 
@@ -44,10 +52,19 @@ for i,t in enumerate(time_points):
 ax.set_xlabel('Trials')
 ax.set_ylabel('Evolution Time')
 ax.set_zlabel('Error')
+ax.set_ylim(0, 5.5)
+ax.set_zlim(bottom=0)
+ax.set_xlim(0, num_trials)
+# ax.legend()
 # ax.set_title('XXXXX')
 
 # 调整视角以获得更好的视觉效果
 ax.view_init(elev=17, azim=-35)
 
+<<<<<<< HEAD
 plt.savefig('Figures/disorder_plot_2.pdf', bbox_inches='tight', dpi=600)
 # plt.show()
+=======
+plt.savefig('Figures/disorder_plot.pdf', bbox_inches='tight', dpi=600)
+plt.show()
+>>>>>>> 7490f2d7a384146f35930e0662f98d4972e3fa6c

@@ -58,17 +58,17 @@ class analog_QD(Quantum_dot):
             *[qt.sigmax() if i == 0 else qt.qeye(2) for i in range(N)]
         )
         IZ = qt.tensor(
-            *[qt.sigmaz() if i == 1 else qt.qeye(2) for i in range(self.N)]
+            *[qt.sigmaz() if i == 0 else qt.qeye(2) for i in range(self.N)]
         )
 
         ZZ = qt.tensor(
             *[qt.sigmaz() if i in [0,1] else qt.qeye(2) for i in range(self.N)]
         )
         XZ = qt.tensor(
-            *[qt.sigmax() if i == 0 else (qt.sigmaz() if i == 1 else qt.qeye(2)) for i in range(self.N)]
+            *[qt.sigmax() if i == 1 else (qt.sigmaz() if i == 0 else qt.qeye(2)) for i in range(self.N)]
         )
         YZ = qt.tensor(
-            *[qt.sigmay() if i == 0 else (qt.sigmaz() if i == 1 else qt.qeye(2)) for i in range(self.N)]
+            *[qt.sigmay() if i == 1 else (qt.sigmaz() if i == 0 else qt.qeye(2)) for i in range(self.N)]
         )
         self.H = (self.get_hamiltonian(self.Omega,self.N) 
                   + h * IZ + 0.25 * J * ZZ + epsilon*self.Omega*IX

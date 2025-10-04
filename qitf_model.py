@@ -144,21 +144,23 @@ def eigenvector_corresponding_to_maximal_eigenvalue(matrix):
 
 
 class analog_QITF(QITFModel):
-    def __init__(self, exact_model, delta=0.01,eta=0.01):
+    def __init__(self, exact_model, delta=[rand.normalvariate(0, 0.01) for _ in range(10)],eta=0.01):
         self.hx = exact_model.hx
         self.hy = exact_model.hy
         self.J = exact_model.J
         self.N = exact_model.N
         self.H = self.get_hamiltonian( self.hx, self.hy, self.J, self.N)
     
-        # permutation_factor = rand.normalvariate(0.01, variance)
+        # perturbation_factor = rand.normalvariate(0.01, variance)
         try:
-            for delta_k in delta:
-                self.perm = delta_k * rand_local_PS(N,1)
+            self.perm = np.zeros((2**self.N,2**self.N),dtype='complex128')
+            for i, delta_k in enumerate(delta):
+                # self.perm += delta_k * rand_local_PS(N,1)
+                self.perm += SparsePauliOp.from_sparse_list([('X', [i],delta_k)], num_qubits=self.N).to_matrix()
 
         except TypeError:
-            self.perm = delta * rand_local_PSCombin(N,N,1) # Add a permutation
-            self.perm += eta * SparsePauliOp.from_sparse_list(self.XX_tuples, num_qubits=self.N).to_matrix()  # Add a permutation
+            self.perm = delta * rand_local_PSCombin(N,N,1) # Add a perturbation
+        self.perm += eta * SparsePauliOp.from_sparse_list(self.XX_tuples, num_qubits=self.N).to_matrix()  # Add an imperfection term
         
         self.H += self.perm
 
