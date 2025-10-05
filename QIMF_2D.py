@@ -149,7 +149,7 @@ def eigenvector_corresponding_to_maximal_eigenvalue(matrix):
 
 
 class analog_QITF(QIMF_2D):
-    def __init__(self, exact_model, delta=0.01,eta=0.01):
+    def __init__(self, exact_model, delta=0.001,eta=0.001):
         self.hx = exact_model.hx
         self.hy = exact_model.hy
         self.J = exact_model.J
