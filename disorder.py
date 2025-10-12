@@ -8,7 +8,7 @@ import pickle
 from math import sqrt
 
 num_trials = 50
-time_points = [0.5 , 1 , 1.5 , 2]
+time_points = [0.5 , 2 , 3.5 , 5]
 
 exact_model = QITFModel(hx=0.809,J=1)
 
@@ -20,14 +20,14 @@ def plot_disorder_trails(model, time, initial_state, variance=0.001 , num_trials
     return y
 
 initial_state = Statevector.from_label('0'*exact_model.N).data
-plots_data = []
-for time in time_points:
-    plots_data.append(plot_disorder_trails(exact_model, time, initial_state))
+# plots_data = []
+# for time in time_points:
+#     plots_data.append(plot_disorder_trails(exact_model, time, initial_state))
 
-# with open('data/disorder_data_2.pkl', 'wb') as f:
+# with open('data/disorder_data.pkl', 'wb') as f:
 #     pickle.dump(plots_data, f)
-# with open('data/disorder_data.pkl', 'rb') as f:
-#     plots_data = pickle.load(f)
+with open('data/disorder_data.pkl', 'rb') as f:
+    plots_data = pickle.load(f)
 
 fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
@@ -50,7 +50,7 @@ for i,t in enumerate(time_points):
     bound= error_bound(t,exact_model)
     ax.plot(range(num_trials), [bound for _ in range(num_trials)], zs=t, zdir='y', linestyle='--', color=colors[i], label='Error Bound')
      #每个时间垂直平面绘制彩色平面
-    ax.plot_surface(np.array([[0, num_trials], [0, num_trials]]), np.array([[t, t], [t, t]]), np.array([[-0.005, -0.005], [0.22,0.22]]), alpha=0.15,color="#ffff00")
+    ax.plot_surface(np.array([[0, num_trials], [0, num_trials]]), np.array([[t, t], [t, t]]), np.array([[0, 0], [0.022,0.022]]), alpha=0.15,color="#ffff00")
 
 
 
@@ -67,6 +67,6 @@ ax.set_xlim(0, num_trials)
 # 调整视角以获得更好的视觉效果
 ax.view_init(elev=17, azim=-35)
 
-plt.savefig('Figures/disorder_plot.pdf', bbox_inches='tight', dpi=600)
+plt.savefig('Figures/disorder_plot.pdf', bbox_inches='tight', dpi=600,pad_inches=0.3)
 plt.show()
 
