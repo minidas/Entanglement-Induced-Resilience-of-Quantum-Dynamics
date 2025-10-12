@@ -29,13 +29,14 @@ class Fermion_Model:
     
 class Analog_Fermion(Fermion_Model):
     def __init__(self,model):
-        self.H=self.get_target_hamiltonian(model.tunneling, model.coulomb+0.01)
+        hamiltonian = fermi_hubbard(1, 8, model.tunneling, model.coulomb+0.01,chemical_potential=0.01,periodic=False)
+        self.H=jordan_wigner(hamiltonian)
 
 if __name__ == "__main__":
     exact_model = Fermion_Model(tunneling=1.0, coulomb=4.0)
     analog_model = Analog_Fermion(exact_model)
 
-    initial_state = Statevector.from_label('0000111100001111').data  # Example initial state
+    initial_state = Statevector.from_label('1111000000001111').data  # Example initial state
     time=np.linspace(0,10,101)
     exact_state=initial_state
     analog_state=initial_state
