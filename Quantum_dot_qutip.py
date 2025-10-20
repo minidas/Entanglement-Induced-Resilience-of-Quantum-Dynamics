@@ -59,6 +59,8 @@ class analog_QD(Quantum_dot):
         )
         IZ = qt.tensor(
             *[qt.sigmaz() if i == 0 else qt.qeye(2) for i in range(self.N)]
+        )+qt.tensor(
+            *[qt.sigmaz() if i == 1 else qt.qeye(2) for i in range(self.N)]
         )
 
         ZZ = qt.tensor(
