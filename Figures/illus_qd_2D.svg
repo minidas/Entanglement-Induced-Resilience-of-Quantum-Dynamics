@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="573.40894"
-   height="413.10782"
-   viewBox="0 0 573.40894 413.10782"
+   width="153.34882mm"
+   height="109.00847mm"
+   viewBox="0 0 579.58608 412.00051"
    version="1.1"
    id="svg1"
    inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
@@ -25,177 +25,259 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
      inkscape:zoom="0.74722222"
-     inkscape:cx="586.84015"
-     inkscape:cy="325.87361"
+     inkscape:cx="572.11896"
+     inkscape:cy="320.52045"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer2" />
+     inkscape:current-layer="svg1" />
   <defs
-     id="defs1" />
+     id="defs1">
+    <linearGradient
+       x1="719.92798"
+       y1="172.04601"
+       x2="730.15802"
+       y2="186.146"
+       gradientUnits="userSpaceOnUse"
+       spreadMethod="reflect"
+       id="fill0">
+      <stop
+         offset="0"
+         stop-color="#F0F8FD"
+         id="stop1" />
+      <stop
+         offset="0.74"
+         stop-color="#74C4E9"
+         id="stop2" />
+      <stop
+         offset="0.83"
+         stop-color="#74C4E9"
+         id="stop3" />
+      <stop
+         offset="1"
+         stop-color="#A2D8F0"
+         id="stop4" />
+    </linearGradient>
+    <linearGradient
+       x1="723"
+       y1="168"
+       x2="723"
+       y2="191"
+       gradientUnits="userSpaceOnUse"
+       spreadMethod="reflect"
+       id="fill1">
+      <stop
+         offset="0"
+         stop-color="#F0F8FD"
+         id="stop5" />
+      <stop
+         offset="0.74"
+         stop-color="#74C4E9"
+         id="stop6" />
+      <stop
+         offset="0.83"
+         stop-color="#74C4E9"
+         id="stop7" />
+      <stop
+         offset="1"
+         stop-color="#A2D8F0"
+         id="stop8" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#fill0"
+       id="linearGradient13"
+       gradientUnits="userSpaceOnUse"
+       x1="719.92798"
+       y1="172.04601"
+       x2="730.15802"
+       y2="186.146"
+       spreadMethod="reflect" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#fill1"
+       id="linearGradient14"
+       gradientUnits="userSpaceOnUse"
+       x1="723"
+       y1="168"
+       x2="723"
+       y2="191"
+       spreadMethod="reflect" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#fill0"
+       id="linearGradient18"
+       gradientUnits="userSpaceOnUse"
+       x1="719.92798"
+       y1="172.04601"
+       x2="730.15802"
+       y2="186.146"
+       spreadMethod="reflect" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#fill1"
+       id="linearGradient19"
+       gradientUnits="userSpaceOnUse"
+       x1="723"
+       y1="168"
+       x2="723"
+       y2="191"
+       spreadMethod="reflect" />
+  </defs>
+  <circle
+     style="fill:#d45500;fill-opacity:0.391111;stroke-width:0.8"
+     id="path14"
+     cx="208.1041"
+     cy="203.19009"
+     r="51.524162" />
+  <ellipse
+     style="fill:#ffb380;fill-opacity:0.391111;stroke-width:0.8"
+     id="path15"
+     cx="287.73233"
+     cy="204.56555"
+     rx="139.18216"
+     ry="37.472118" />
+  <ellipse
+     style="fill:#ffb380;fill-opacity:0.391111;stroke-width:0.76076"
+     id="path16"
+     cx="206.76578"
+     cy="285.5321"
+     rx="35.464684"
+     ry="126.46841" />
+  <ellipse
+     style="fill:#ffb380;fill-opacity:0.391111;stroke-width:0.8"
+     id="path17"
+     cx="208.77322"
+     cy="118.91497"
+     rx="40.148701"
+     ry="116.43123" />
+  <ellipse
+     style="fill:#ffb380;fill-opacity:0.391111;stroke-width:0.8"
+     id="path18"
+     cx="127.13755"
+     cy="205.90384"
+     rx="127.13755"
+     ry="32.118958" />
   <g
      inkscape:label="图层 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-373.3829,-214.12639)">
+     transform="translate(-388.10409,-219.65751)">
     <path
        style="fill:none;stroke:#000000;stroke-width:0.8;stroke-dasharray:none;stroke-opacity:1"
-       d="M 426.9145,248.92193 H 935.46468 V 588.84758 H 426.9145 Z"
+       d="M 426.9145,252.92193 H 935.46468 V 592.84758 H 426.9145 Z"
        id="path34" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.8;stroke-dasharray:none;stroke-opacity:1"
-       d="M 426.9145,418.88476 H 936.80297"
+       d="M 426.9145,422.88476 H 936.80297"
        id="path36" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.8;stroke-dasharray:none;stroke-opacity:1"
-       d="M 596.20074,248.92193 V 588.84758"
+       d="M 596.20074,252.92193 V 592.84758"
        id="path37" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.8;stroke-dasharray:none;stroke-opacity:1"
-       d="M 764.82528,587.50929 V 248.92193"
+       d="M 764.82528,591.50929 V 252.92193"
        id="path38" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Layer 1"
-     transform="translate(-373.3829,-214.12639)">
-    <circle
-       style="fill:#008080;stroke-width:0"
-       id="path1"
-       cx="426.86618"
-       cy="249.94426"
-       r="14.052045"
-       inkscape:tile-cx="427.58365"
-       inkscape:tile-cy="249.59108"
-       inkscape:tile-w="28.10409"
-       inkscape:tile-h="28.10409"
-       inkscape:tile-x0="413.5316"
-       inkscape:tile-y0="235.53903" />
-    <ellipse
-       style="fill:#bc7100;fill-opacity:0.391111;stroke:none;stroke-width:1.23509;stroke-dasharray:none;stroke-opacity:1"
-       id="path39"
-       cx="596.21564"
-       cy="417.59772"
-       rx="58.884758"
-       ry="56.81863" />
+     transform="translate(-388.10409,-219.65751)">
+    <g
+       transform="matrix(1.6390052,0,0,1.6390052,-758.11606,-41.602175)"
+       id="g9">
+      <path
+         d="m 704.599,188.549 28.724,-20.84 -2.557,-3.525 12.164,1.935 -1.935,12.164 -2.557,-3.525 -28.725,20.841 z"
+         fill="url(#fill0)"
+         fill-rule="evenodd"
+         id="path8"
+         style="fill:url(#linearGradient18)" />
+      <path
+         d="m 712,179.5 c 0,-6.351 4.925,-11.5 11,-11.5 6.075,0 11,5.149 11,11.5 0,6.351 -4.925,11.5 -11,11.5 -6.075,0 -11,-5.149 -11,-11.5 z"
+         fill="url(#fill1)"
+         fill-rule="evenodd"
+         id="path9"
+         style="fill:url(#linearGradient19)" />
+    </g>
     <use
        x="0"
        y="0"
-       inkscape:tiled-clone-of="#path1"
-       xlink:href="#path1"
-       id="use23" />
+       xlink:href="#g9"
+       id="use1"
+       transform="rotate(-24.38756,513.13772,-140.10637)" />
     <use
        x="0"
        y="0"
-       inkscape:tiled-clone-of="#path1"
-       xlink:href="#path1"
-       transform="translate(-3.6059479e-6,168.62454)"
-       id="use24" />
+       xlink:href="#use1"
+       id="use2"
+       transform="translate(0,170)" />
     <use
        x="0"
        y="0"
-       inkscape:tiled-clone-of="#path1"
-       xlink:href="#path1"
-       transform="translate(-3.6059479e-6,337.24908)"
-       id="use25" />
+       xlink:href="#use2"
+       id="use3"
+       transform="translate(168)" />
     <use
        x="0"
        y="0"
-       inkscape:tiled-clone-of="#path1"
-       xlink:href="#path1"
-       transform="translate(168.62454)"
-       id="use26" />
+       xlink:href="#use3"
+       id="use4"
+       transform="translate(-338)" />
     <use
        x="0"
        y="0"
-       inkscape:tiled-clone-of="#path1"
-       xlink:href="#path1"
-       transform="translate(168.62454,168.62454)"
-       id="use27" />
+       xlink:href="#use4"
+       id="use5"
+       transform="translate(167.18216,169.57621)" />
+    <g
+       transform="matrix(1.6385171,-0.03999728,0.03999728,1.6385171,-764.42252,327.28192)"
+       id="use7">
+      <path
+         d="m 704.599,188.549 28.724,-20.84 -2.557,-3.525 12.164,1.935 -1.935,12.164 -2.557,-3.525 -28.725,20.841 z"
+         fill="url(#fill0)"
+         fill-rule="evenodd"
+         id="path12"
+         style="fill:url(#linearGradient13)" />
+      <path
+         d="m 712,179.5 c 0,-6.351 4.925,-11.5 11,-11.5 6.075,0 11,5.149 11,11.5 0,6.351 -4.925,11.5 -11,11.5 -6.075,0 -11,-5.149 -11,-11.5 z"
+         fill="url(#fill1)"
+         fill-rule="evenodd"
+         id="path13"
+         style="fill:url(#linearGradient14)" />
+    </g>
     <use
        x="0"
        y="0"
-       inkscape:tiled-clone-of="#path1"
-       xlink:href="#path1"
-       transform="translate(168.62454,337.24908)"
-       id="use28" />
+       xlink:href="#use1"
+       id="use8"
+       transform="rotate(-61.57792,767.13786,-31.64451)" />
     <use
        x="0"
        y="0"
-       inkscape:tiled-clone-of="#path1"
-       xlink:href="#path1"
-       transform="translate(337.24908)"
-       id="use29" />
+       xlink:href="#use2"
+       id="use9"
+       transform="rotate(98.298041,768.83948,568.58258)" />
     <use
        x="0"
        y="0"
-       inkscape:tiled-clone-of="#path1"
-       xlink:href="#path1"
-       transform="translate(337.24908,168.62454)"
-       id="use30" />
+       xlink:href="#use5"
+       id="use10"
+       transform="rotate(-73.685487,764.54994,366.0627)" />
     <use
        x="0"
        y="0"
-       inkscape:tiled-clone-of="#path1"
-       xlink:href="#path1"
-       transform="translate(337.24908,337.24908)"
-       id="use31" />
+       xlink:href="#use3"
+       id="use11"
+       transform="rotate(31.828679,1065.1903,337.95471)" />
     <use
        x="0"
        y="0"
-       inkscape:tiled-clone-of="#path1"
-       xlink:href="#path1"
-       transform="translate(505.87362)"
-       id="use32" />
-    <use
-       x="0"
-       y="0"
-       inkscape:tiled-clone-of="#path1"
-       xlink:href="#path1"
-       transform="translate(505.87362,168.62454)"
-       id="use33" />
-    <use
-       x="0"
-       y="0"
-       inkscape:tiled-clone-of="#path1"
-       xlink:href="#path1"
-       transform="translate(505.87362,337.24908)"
-       id="use34" />
-    <rect
-       style="fill:#b4bc00;fill-opacity:0.391111;stroke:none;stroke-width:0.8;stroke-dasharray:none;stroke-opacity:1"
-       id="rect39"
-       width="255.61339"
-       height="80.297401"
-       x="373.3829"
-       y="376.05948"
-       ry="33.457249" />
-    <rect
-       style="fill:#b4bc00;fill-opacity:0.391111;stroke:none;stroke-width:0.75954;stroke-dasharray:none;stroke-opacity:1"
-       id="rect40"
-       width="85.650558"
-       height="240.8922"
-       x="554.05206"
-       y="214.12639"
-       ry="34.79554" />
-    <rect
-       style="fill:#b4bc00;fill-opacity:0.391111;stroke:none;stroke-width:0.8;stroke-dasharray:none;stroke-opacity:1"
-       id="rect41"
-       width="255.61339"
-       height="80.297401"
-       x="552.71375"
-       y="376.05948"
-       ry="33.457249" />
-    <rect
-       style="fill:#b4bc00;fill-opacity:0.391111;stroke:none;stroke-width:0.8;stroke-dasharray:none;stroke-opacity:1"
-       id="rect42"
-       width="255.61339"
-       height="80.297401"
-       x="371.62082"
-       y="-634.34204"
-       ry="33.457249"
-       transform="rotate(90)" />
+       xlink:href="#use11"
+       id="use12"
+       transform="rotate(-106.06168,894.10026,421.2471)" />
   </g>
 </svg>
