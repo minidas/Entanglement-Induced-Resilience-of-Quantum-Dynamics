@@ -17,7 +17,7 @@ class Fermion_Model:
     def get_target_hamiltonian(self,tunneling = 1.0,coulomb = 4.0):
         # define the target Hamiltonian
         
-        hamiltonian = fermi_hubbard(1, 8, tunneling, coulomb)
+        hamiltonian = fermi_hubbard(2, 4, tunneling, coulomb, periodic=False)
         # print(hamiltonian)
         H_qubit = jordan_wigner(hamiltonian)
         return H_qubit
@@ -29,15 +29,16 @@ class Fermion_Model:
     
 class Analog_Fermion(Fermion_Model):
     def __init__(self,model):
-        hamiltonian = fermi_hubbard(1, 8, model.tunneling, model.coulomb+0.01)
+        hamiltonian = fermi_hubbard(2, 4, model.tunneling, model.coulomb+0.01,periodic=False)
+         # print(hamiltonian)
         self.H=jordan_wigner(hamiltonian)
 
 if __name__ == "__main__":
     exact_model = Fermion_Model(tunneling=1.0, coulomb=0)
     analog_model = Analog_Fermion(exact_model)
 
-    initial_state = Statevector.from_label('1111111100000000').data  # Example initial state
-    time=np.linspace(0,10,101)
+    initial_state = Statevector.from_label('1111001111000000').data  # Example initial state
+    time=np.linspace(0,5,51)
     exact_state=initial_state
     analog_state=initial_state
     time_step=0.1
