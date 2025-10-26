@@ -32,10 +32,17 @@ def RDM_entropy(state,k,qubits=N):
 
 def entropy_data(state,model : QITFModel,k,time=time,qubits=N):
     entropy_list = []
-    for i in time:
-        entropy_list.append(RDM_entropy(state,k,qubits)[-1])
-        state = model.one_step_evolve(state)
-    return entropy_list
+    try:
+        for i in time:
+            entropy_list.append(RDM_entropy(state,k,qubits)[-1])
+            state = model.one_step_evolve(state)
+        return entropy_list
+    except TypeError:
+        for i in time:
+            rho=partial_trace(Statevector(state),k)
+            entropy_list.append(von_neumann_entropy(rho))
+            state = model.one_step_evolve(state)
+        return entropy_list
 
 def plot_entropy(state,model : QITFModel,k,time=time,mfc='#F3A33A',label='entropy'):
     entropy_list = entropy_data(state, model, k, time)

@@ -172,14 +172,14 @@ class analog_QITF(QITFModel):
     def perturbation_list(self):
         perm_list=[]
         for i in range(N):
-            perm_list.append(SparsePauliOp.from_sparse_list([('Z', [i],1)], num_qubits=self.N).to_matrix())
+            perm_list.append(SparsePauliOp.from_sparse_list([('X', [i],1)], num_qubits=self.N).to_matrix())
         for i in range(N-1):
-            perm_list.append(SparsePauliOp.from_sparse_list([('ZZ', [i,i+1],1)], num_qubits=self.N).to_matrix())
+            perm_list.append(SparsePauliOp.from_sparse_list([('XX', [i,i+1],1)], num_qubits=self.N).to_matrix())
 
         cross_term=[]
         for i,term in enumerate(perm_list):
             for j in range(i+1,len(perm_list)):
-                cross_term.append(term.conj().T @ perm_list[j])
+                cross_term.append(term.conj().T @ perm_list[j]+ perm_list[j].conj().T @ term)
         return cross_term
             
     def long_time_error(self, initial_state, time):
@@ -207,7 +207,7 @@ if __name__ == "__main__":
     error=[]
     cross=analog_model.perturbation_list()
     for term in cross:
-        error.append(evolved_state.conj().T @ term @ evolved_state)
+        error.append(np.abs(evolved_state.conj().T @ term @ evolved_state))
 
     plt.plot(range(len(error)), error,marker='o',markersize=4, mfc='#397FC7', linestyle='', label='Typical case')
     initial_state=Statevector.from_label('+'*N).data
@@ -215,11 +215,12 @@ if __name__ == "__main__":
 
     error=[]
     for term in cross:
-        error.append(evolved_state.conj().T @ term @ evolved_state)
+        error.append(np.abs(evolved_state.conj().T @ term @ evolved_state))
     plt.plot(range(len(error)), error, marker='o',markersize=4, mfc='#E74C3C', linestyle='', label='Atypical case')
 
     plt.xlabel('Term Label')
-    plt.ylabel('Value')
+    plt.ylabel('Absolute Value')
+    # plt.xlim(right=171)
     plt.legend(loc=1)
     plt.title('QIMF model, long-time evolution')
     plt.grid()
