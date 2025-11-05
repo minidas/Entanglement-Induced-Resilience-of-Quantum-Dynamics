@@ -11,14 +11,14 @@ num_rand=256
 
 time=np.linspace(0,final_time,num_steps+1)
 
-N=12
+N=16
 d=2**N
 
 from scipy.linalg import expm
 
 class Quantum_dot:
 
-    def __init__(self, Omega, N=12):
+    def __init__(self, Omega, N=16):
         self.Omega = Omega
         self.N = N
         self.H = self.get_hamiltonian(Omega, N)
