@@ -1,0 +1,1983 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="2567.2976"
+   height="700.07111"
+   viewBox="0 0 2567.2976 700.07111"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   sodipodi:docname="energy_band.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="0.49804688"
+     inkscape:cx="1280"
+     inkscape:cy="235.92157"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="图层 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-93.673288,-320.94931)">
+    <path
+       d="M 93.673288,613.06217 H 284.66524"
+       stroke="#000000"
+       stroke-width="0.580776"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path1"
+       style="stroke-width:4.99998;stroke-dasharray:none" />
+    <path
+       d="M 93.673288,752.3965 H 288.23402"
+       stroke="#000000"
+       stroke-width="0.586177"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path2"
+       style="stroke-width:4.99998;stroke-dasharray:none" />
+    <path
+       d="m 197.00522,632.57349 v 100.86499 h -1.9867 V 632.57349 Z m -12.92555,3.80895 11.9322,-22.85942 11.93217,22.85942 z m 23.86437,93.24423 -11.93217,22.85941 -11.9322,-22.85941 z"
+       fill="#4472c4"
+       id="path3"
+       style="fill:#000080;stroke-width:2.91956"
+       sodipodi:nodetypes="ccccccccccccc" />
+    <path
+       d="m 149.20067,530.97583 v 57.23822 h 6.71043 l -13.42082,17.4203 -13.42077,-17.4203 h 6.71034 v -57.23822 z"
+       stroke="#172c51"
+       stroke-width="2.91244"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path4"
+       style="fill:#dde9af;fill-opacity:1" />
+    <path
+       d="m 257.28813,604.72918 2.1e-4,-57.70638 h -1.64446 l -2.1e-4,57.70638 z m 9.0448,-54.41752 -9.86677,-19.73365 -9.86687,19.73365 z"
+       fill="#4472c4"
+       id="path5"
+       style="fill:#5075b8;fill-opacity:1;stroke-width:2.46671" />
+    <path
+       d="m 274.73015,530.10595 11.53432,34.3711 v 2.13863 l -11.53432,34.34148 -3.06364,-1.04096 9.27975,-34.37107 -9.27975,-34.42784 z m -170.11267,1.15733 h 4.45242 v 71.51475 h -4.45242 z"
+       fill-rule="evenodd"
+       id="path6"
+       sodipodi:nodetypes="ccccccccccccc"
+       style="stroke-width:2.46671" />
+    <text
+       font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="71.5928px"
+       id="text6"
+       x="1165.0573"
+       y="529.45398"
+       style="stroke-width:2.98304"></text>
+    <text
+       font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="71.5928px"
+       id="text7"
+       x="1236.6501"
+       y="529.45398"
+       style="stroke-width:2.98304"></text>
+    <text
+       font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="71.5928px"
+       id="text8"
+       x="1252.5587"
+       y="529.45398"
+       style="stroke-width:2.98304"></text>
+    <text
+       font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="71.5928px"
+       id="text9"
+       x="1268.4672"
+       y="529.45398"
+       style="stroke-width:2.98304"></text>
+    <text
+       font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="71.5928px"
+       id="text10"
+       x="1284.3787"
+       y="529.45398"
+       style="stroke-width:2.98304"></text>
+    <text
+       font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="71.5928px"
+       id="text11"
+       x="1300.2872"
+       y="529.45398"
+       style="stroke-width:2.98304"></text>
+    <text
+       font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="71.5928px"
+       id="text12"
+       x="1316.1958"
+       y="529.45398"
+       style="stroke-width:2.98304"></text>
+    <text
+       font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="71.5928px"
+       id="text13"
+       x="1332.1073"
+       y="529.45398"
+       style="stroke-width:2.98304"></text>
+    <text
+       font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="71.5928px"
+       id="text14"
+       x="1348.0157"
+       y="529.45398"
+       style="stroke-width:2.98304"></text>
+    <text
+       font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="71.5928px"
+       id="text15"
+       x="1363.9243"
+       y="529.45398"
+       style="stroke-width:2.98304"></text>
+    <text
+       font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="71.5928px"
+       id="text16"
+       x="1379.8358"
+       y="529.45398"
+       style="stroke-width:2.98304"></text>
+    <text
+       font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="71.5928px"
+       id="text17"
+       x="1421.479"
+       y="529.45398"
+       style="stroke-width:2.98304"></text>
+    <path
+       d="m 188.89253,530.97583 v 57.23822 h 6.71042 l -13.42079,17.4203 -13.42074,-17.4203 h 6.71034 v -57.23822 z"
+       stroke="#172c51"
+       stroke-width="2.91244"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path7"
+       style="fill:#b6e994;fill-opacity:1" />
+    <path
+       d="m 228.58441,530.97583 v 57.23822 h 6.71043 l -13.4208,17.4203 -13.42076,-17.4203 h 6.71036 v -57.23822 z"
+       stroke="#172c51"
+       stroke-width="2.91244"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path8"
+       style="fill:#d38181;fill-opacity:1" />
+    <path
+       d="M 315.67369,589.06208 H 520.94032"
+       stroke="#000000"
+       stroke-width="0.602089"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path9"
+       style="stroke-width:4.99998;stroke-dasharray:none" />
+    <path
+       d="M 315.67369,772.39658 H 520.94032"
+       stroke="#000000"
+       stroke-width="0.602089"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path10"
+       style="stroke-width:4.99998;stroke-dasharray:none" />
+    <path
+       d="m 419.00529,608.57347 v 142.86499 h -1.9867 V 608.57347 Z m -12.92549,3.80895 11.93214,-22.85942 11.93214,22.85942 z m 23.86428,135.24423 -11.93214,22.85942 -11.93214,-22.85942 z"
+       fill="#4472c4"
+       id="path11"
+       style="fill:#000080;stroke-width:2.91956"
+       sodipodi:nodetypes="ccccccccccccc" />
+    <path
+       d="m 148.4383,773.9067 v 57.23821 h 6.71043 l -13.4208,17.4203 -13.42076,-17.4203 h 6.71033 V 773.9067 Z"
+       stroke="#172c51"
+       stroke-width="2.91244"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path16"
+       style="fill:#dde9af;fill-opacity:1" />
+    <path
+       d="m 254.88172,773.50888 -2.1e-4,57.70637 h 1.64449 l 1.7e-4,-57.70637 z m -9.04481,54.41752 9.86678,19.73364 9.8669,-19.73364 z"
+       fill="#4472c4"
+       id="path17"
+       style="fill:#5075b8;fill-opacity:1;stroke-width:2.46671" />
+    <path
+       d="m 273.9678,773.03681 11.53433,34.37107 v 2.13866 l -11.53433,34.34148 -3.06366,-1.04096 9.27974,-34.37107 -9.27974,-34.42784 z m -170.11267,1.15733 h 4.45242 v 71.51476 h -4.45242 z"
+       fill-rule="evenodd"
+       id="path18"
+       sodipodi:nodetypes="ccccccccccccc"
+       style="stroke-width:2.46671" />
+    <path
+       d="m 188.13018,773.9067 v 57.23821 h 6.71043 l -13.4208,17.4203 -13.42076,-17.4203 h 6.71037 V 773.9067 Z"
+       stroke="#172c51"
+       stroke-width="2.91244"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path19"
+       style="fill:#b6e994;fill-opacity:1" />
+    <path
+       d="m 227.82207,773.9067 v 57.23821 h 6.71039 l -13.42076,17.4203 -13.42077,-17.4203 h 6.71034 V 773.9067 Z"
+       stroke="#172c51"
+       stroke-width="2.91244"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path20"
+       style="fill:#d38181;fill-opacity:1" />
+    <path
+       d="m 353.07296,574.663 v -57.23822 h -6.71043 l 13.42077,-17.4203 13.42076,17.4203 H 366.4937 V 574.663 Z"
+       stroke="#172c51"
+       stroke-width="2.91244"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path21"
+       style="fill:#dde9af;fill-opacity:1" />
+    <path
+       d="m 474.58089,572.82795 1.7e-4,-57.70637 h -1.64445 l -2.1e-4,57.70637 z m 9.04477,-54.41752 -9.86675,-19.73367 -9.8669,19.73367 z"
+       fill="#4472c4"
+       id="path22"
+       style="fill:#5075b8;fill-opacity:1;stroke-width:2.46671" />
+    <path
+       d="m 492.02288,498.20472 11.53432,34.37107 v 2.13866 l -11.53432,34.34148 -3.06365,-1.04096 9.27976,-34.37107 -9.27976,-34.42784 z m -170.11235,1.15733 h 4.45239 v 71.51476 h -4.45239 z"
+       fill-rule="evenodd"
+       id="path23"
+       sodipodi:nodetypes="ccccccccccccc"
+       style="stroke-width:2.46671" />
+    <path
+       d="m 406.1854,499.07461 v 57.23821 h 6.7104 l -13.42077,17.4203 -13.4207,-17.4203 h 6.71033 v -57.23821 z"
+       stroke="#172c51"
+       stroke-width="2.91244"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path24"
+       style="fill:#b6e994;fill-opacity:1" />
+    <path
+       d="m 445.87716,499.07461 v 57.23821 h 6.7104 l -13.42076,17.4203 -13.42071,-17.4203 h 6.71034 v -57.23821 z"
+       stroke="#172c51"
+       stroke-width="2.91244"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path25"
+       style="fill:#d38181;fill-opacity:1" />
+    <path
+       d="m 356.64171,865.42174 v -57.23822 h -6.71039 l 13.42076,-17.4203 13.42074,17.4203 h -6.71034 v 57.23822 z"
+       stroke="#172c51"
+       stroke-width="2.91244"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path26"
+       style="fill:#dde9af;fill-opacity:1" />
+    <path
+       d="m 476.50557,789.43553 -2.1e-4,57.70638 h 1.64449 l 1.8e-4,-57.70638 z m -9.04477,54.41752 9.86675,19.73364 9.86688,-19.73364 z"
+       fill="#4472c4"
+       id="path27"
+       style="fill:#5075b8;fill-opacity:1;stroke-width:2.46671" />
+    <path
+       d="m 495.59165,788.96347 11.53433,34.3711 v 2.13863 l -11.53433,34.34148 -3.06364,-1.04096 9.27975,-34.37108 -9.27975,-34.42784 z m -170.11236,1.15732 h 4.45241 v 71.51476 h -4.45241 z"
+       fill-rule="evenodd"
+       id="path28"
+       sodipodi:nodetypes="ccccccccccccc"
+       style="stroke-width:2.46671" />
+    <path
+       d="m 409.75418,789.83335 v 57.23822 h 6.7104 l -13.42076,17.4203 -13.42071,-17.4203 h 6.71031 v -57.23822 z"
+       stroke="#172c51"
+       stroke-width="2.91244"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path29"
+       style="fill:#b6e994;fill-opacity:1" />
+    <path
+       d="m 449.44592,789.83335 v 57.23822 h 6.7104 l -13.42074,17.4203 -13.42074,-17.4203 h 6.71034 v -57.23822 z"
+       stroke="#172c51"
+       stroke-width="2.91244"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path30"
+       style="fill:#d38181;fill-opacity:1" />
+    <path
+       d="M 565.67369,565.062 H 770.94032"
+       stroke="#000000"
+       stroke-width="0.602089"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path31"
+       style="stroke-width:4.99998;stroke-dasharray:none" />
+    <path
+       d="M 565.67369,794.39665 H 770.94032"
+       stroke="#000000"
+       stroke-width="0.602089"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path32"
+       style="stroke-width:4.99998;stroke-dasharray:none" />
+    <path
+       d="m 669.00532,582.57349 v 192.86497 h -1.98673 V 582.57349 Z m -12.92552,3.80894 11.93217,-22.85941 11.93213,22.85941 z m 23.8643,185.24422 -11.93213,22.85942 -11.93217,-22.85942 z"
+       fill="#4472c4"
+       id="path33"
+       style="fill:#000080;stroke-width:2.91956"
+       sodipodi:nodetypes="ccccccccccccc" />
+    <path
+       d="m 624.96874,477.01508 v 57.23822 h 6.71041 l -13.42077,17.4203 -13.42076,-17.4203 h 6.71035 v -57.23822 z"
+       stroke="#172c51"
+       stroke-width="2.91244"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path34"
+       style="fill:#dde9af;fill-opacity:1" />
+    <path
+       d="m 733.056,550.76843 2.1e-4,-57.70638 h -1.64448 l -2.1e-4,57.70638 z m 9.04477,-54.41752 -9.86675,-19.73368 -9.86689,19.73368 z"
+       fill="#4472c4"
+       id="path35"
+       style="fill:#5075b8;fill-opacity:1;stroke-width:2.46671" />
+    <path
+       d="m 750.49799,476.1452 11.53432,34.37107 v 2.13866 l -11.53432,34.34148 -3.06362,-1.04096 9.27974,-34.37107 -9.27974,-34.42784 z m -170.11238,1.15733 h 4.4524 v 71.51475 h -4.4524 z"
+       fill-rule="evenodd"
+       id="path36"
+       sodipodi:nodetypes="ccccccccccccc"
+       style="stroke-width:2.46671" />
+    <path
+       d="m 651.23984,552.60347 v -57.23822 h -6.7104 l 13.42076,-17.4203 13.42072,17.4203 h -6.71034 v 57.23822 z"
+       stroke="#172c51"
+       stroke-width="2.91244"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path37"
+       style="fill:#b6e994;fill-opacity:1" />
+    <path
+       d="m 704.35225,477.01508 v 57.23822 h 6.71042 l -13.42076,17.4203 -13.42073,-17.4203 h 6.71034 v -57.23822 z"
+       stroke="#172c51"
+       stroke-width="2.91244"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path38"
+       style="fill:#d38181;fill-opacity:1" />
+    <path
+       d="m 617.83119,810.53968 v 57.23822 h 6.71041 l -13.42077,17.4203 -13.42075,-17.4203 h 6.71035 v -57.23822 z"
+       stroke="#172c51"
+       stroke-width="2.91244"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path39"
+       style="fill:#dde9af;fill-opacity:1" />
+    <path
+       d="m 724.27441,810.14186 -2.1e-4,57.70638 h 1.64449 l 1.8e-4,-57.70638 z m -9.0448,54.41752 9.86678,19.73364 9.86687,-19.73364 z"
+       fill="#4472c4"
+       id="path40"
+       style="fill:#5075b8;fill-opacity:1;stroke-width:2.46671" />
+    <path
+       d="m 743.36048,809.6698 11.53432,34.3711 v 2.13862 l -11.53432,34.34149 -3.06363,-1.04097 9.27974,-34.37107 -9.27974,-34.42784 z m -170.11242,1.15732 h 4.4524 v 71.51476 h -4.4524 z"
+       fill-rule="evenodd"
+       id="path41"
+       sodipodi:nodetypes="ccccccccccccc"
+       style="stroke-width:2.46671" />
+    <path
+       d="m 644.1023,886.12807 v -57.23822 h -6.71041 l 13.42077,-17.4203 13.42071,17.4203 h -6.71033 v 57.23822 z"
+       stroke="#172c51"
+       stroke-width="2.91244"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path42"
+       style="fill:#b6e994;fill-opacity:1" />
+    <path
+       d="m 697.2147,810.53968 v 57.23822 h 6.71043 l -13.42077,17.4203 -13.42072,-17.4203 h 6.71033 v -57.23822 z"
+       stroke="#172c51"
+       stroke-width="2.91244"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path43"
+       style="fill:#d38181;fill-opacity:1" />
+    <path
+       d="M 795.85932,545.27755 H 1001.1261"
+       stroke="#000000"
+       stroke-width="0.602089"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path44"
+       style="stroke-width:4.99998;stroke-dasharray:none" />
+    <path
+       d="M 795.85932,812.61232 H 1001.1261"
+       stroke="#000000"
+       stroke-width="0.602089"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path45"
+       style="stroke-width:4.99998;stroke-dasharray:none" />
+    <path
+       d="m 899.19092,562.78909 v 226.86499 h -1.98673 V 562.78909 Z m -12.92552,3.80895 11.93217,-22.85942 11.93211,22.85942 z m 23.86428,219.24423 -11.93211,22.85942 -11.93217,-22.85942 z"
+       fill="#4472c4"
+       id="path46"
+       style="fill:#000080;stroke-width:2.91956"
+       sodipodi:nodetypes="ccccccccccccc" />
+    <path
+       d="m 853.15433,455.23063 v 57.23822 h 6.7104 l -13.42077,17.4203 -13.42076,-17.4203 h 6.71037 v -57.23822 z"
+       stroke="#172c51"
+       stroke-width="2.91244"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path47"
+       style="fill:#dde9af;fill-opacity:1" />
+    <path
+       d="m 961.24164,528.98398 2.1e-4,-57.70638 h -1.64449 l -2.1e-4,57.70638 z m 9.0448,-54.41752 -9.86677,-19.73368 -9.86693,19.73368 z"
+       fill="#4472c4"
+       id="path48"
+       style="fill:#5075b8;fill-opacity:1;stroke-width:2.46671" />
+    <path
+       d="m 978.68369,454.36075 11.53435,34.37107 v 2.13866 l -11.53435,34.34148 -3.06364,-1.04096 9.27978,-34.37108 -9.27978,-34.42783 z m -170.11249,1.15733 h 4.45239 v 71.51475 h -4.45239 z"
+       fill-rule="evenodd"
+       id="path49"
+       sodipodi:nodetypes="ccccccccccccc"
+       style="stroke-width:2.46671" />
+    <path
+       d="m 892.8461,455.23063 v 57.23822 h 6.71039 l -13.42076,17.4203 -13.42071,-17.4203 h 6.71034 v -57.23822 z"
+       stroke="#172c51"
+       stroke-width="2.91244"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path50"
+       style="fill:#b6e994;fill-opacity:1" />
+    <path
+       d="M 919.11718,530.81902 V 473.5808 h -6.71043 l 13.42077,-17.4203 13.42074,17.4203 h -6.71034 v 57.23822 z"
+       stroke="#172c51"
+       stroke-width="2.91244"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path51"
+       style="fill:#d38181;fill-opacity:1" />
+    <path
+       d="m 849.80116,831.03042 v 57.23821 h 6.71043 l -13.42077,17.42031 -13.42076,-17.42031 h 6.71037 v -57.23821 z"
+       stroke="#172c51"
+       stroke-width="2.91244"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path52"
+       style="fill:#dde9af;fill-opacity:1" />
+    <path
+       d="m 956.24443,830.6326 -2.1e-4,57.70637 h 1.64449 l 1.8e-4,-57.70637 z m -9.04483,54.41752 9.86681,19.73364 9.86689,-19.73364 z"
+       fill="#4472c4"
+       id="path53"
+       style="fill:#5075b8;fill-opacity:1;stroke-width:2.46671" />
+    <path
+       d="m 975.33055,830.16053 11.53435,34.37111 v 2.13862 l -11.53435,34.34148 -3.06364,-1.04096 9.27978,-34.37107 -9.27978,-34.42784 z m -170.11248,1.15733 h 4.45237 v 71.51476 h -4.45237 z"
+       fill-rule="evenodd"
+       id="path54"
+       sodipodi:nodetypes="ccccccccccccc"
+       style="stroke-width:2.46671" />
+    <path
+       d="m 889.49295,831.03042 v 57.23821 h 6.7104 l -13.42076,17.42031 -13.42071,-17.42031 h 6.71034 v -57.23821 z"
+       stroke="#172c51"
+       stroke-width="2.91244"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path55"
+       style="fill:#b6e994;fill-opacity:1" />
+    <path
+       d="m 915.76404,906.61881 v -57.23822 h -6.71043 l 13.42077,-17.4203 13.42074,17.4203 h -6.71034 v 57.23822 z"
+       stroke="#172c51"
+       stroke-width="2.91244"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path56"
+       style="fill:#d38181;fill-opacity:1" />
+    <path
+       d="m 1030.5359,518.63062 h 205.2668"
+       stroke="#000000"
+       stroke-width="0.602089"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path57"
+       style="stroke-width:4.99998;stroke-dasharray:none" />
+    <path
+       d="m 1030.5359,831.9655 h 205.2668"
+       stroke="#000000"
+       stroke-width="0.602089"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path58"
+       style="stroke-width:4.99998;stroke-dasharray:none" />
+    <path
+       d="m 1135.8675,538.14225 v 272.86497 h -1.9867 V 538.14225 Z m -12.9255,3.80894 11.9322,-22.85941 11.9321,22.85941 z m 23.8643,265.24422 -11.9321,22.85942 -11.9322,-22.85942 z"
+       fill="#4472c4"
+       id="path59"
+       style="fill:#000080;stroke-width:2.91956"
+       sodipodi:nodetypes="ccccccccccccc" />
+    <path
+       d="m 1076.1781,506.52272 -10e-5,-57.23822 h -6.7103 l 13.4207,-17.42027 13.4208,17.42027 h -6.7104 v 57.23822 z"
+       stroke="#172c51"
+       stroke-width="2.91244"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path60"
+       style="fill:#dde9af;fill-opacity:1" />
+    <path
+       d="m 1197.9182,504.33705 2e-4,-57.70637 h -1.6445 l -2e-4,57.70637 z m 9.0448,-54.41752 -9.8668,-19.73367 -9.8669,19.73367 z"
+       fill="#4472c4"
+       id="path61"
+       style="fill:#5075b8;fill-opacity:1;stroke-width:2.46671" />
+    <path
+       d="m 1215.3603,429.71382 11.5343,34.37107 v 2.13866 l -11.5343,34.34148 -3.0637,-1.04096 9.2798,-34.37107 -9.2798,-34.42784 z m -170.1125,1.15733 h 4.4524 v 71.51476 h -4.4524 z"
+       fill-rule="evenodd"
+       id="path62"
+       sodipodi:nodetypes="ccccccccccccc"
+       style="stroke-width:2.46671" />
+    <path
+       d="m 1116.102,506.17209 v -57.23821 h -6.7104 l 13.4208,-17.4203 13.4207,17.4203 h -6.7104 v 57.23821 z"
+       stroke="#172c51"
+       stroke-width="2.91244"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path63"
+       style="fill:#b6e994;fill-opacity:1" />
+    <path
+       d="m 1169.2144,430.5837 v 57.23822 h 6.7104 l -13.4207,17.4203 -13.4208,-17.4203 h 6.7104 V 430.5837 Z"
+       stroke="#172c51"
+       stroke-width="2.91244"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path64"
+       style="fill:#d38181;fill-opacity:1" />
+    <path
+       d="M 1069.2727,923.69691 V 866.4587 h -6.7105 l 13.4208,-17.42031 13.4208,17.42031 h -6.7104 v 57.23821 z"
+       stroke="#172c51"
+       stroke-width="2.91244"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path65"
+       style="fill:#dde9af;fill-opacity:1" />
+    <path
+       d="m 1189.1366,847.7107 -2e-4,57.70638 h 1.6445 l 2e-4,-57.70638 z m -9.0448,54.41752 9.8668,19.73365 9.8669,-19.73365 z"
+       fill="#4472c4"
+       id="path66"
+       style="fill:#5075b8;fill-opacity:1;stroke-width:2.46671" />
+    <path
+       d="m 1208.2227,847.23864 11.5344,34.3711 v 2.13863 l -11.5344,34.34148 -3.0636,-1.04096 9.2798,-34.37107 -9.2798,-34.42784 z m -170.1125,1.15733 h 4.4524 v 71.51475 h -4.4524 z"
+       fill-rule="evenodd"
+       id="path67"
+       sodipodi:nodetypes="ccccccccccccc"
+       style="stroke-width:2.46671" />
+    <path
+       d="M 1108.9645,923.69691 V 866.4587 h -6.7104 l 13.4207,-17.42031 13.4207,17.42031 h -6.7103 v 57.23821 z"
+       stroke="#172c51"
+       stroke-width="2.91244"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path68"
+       style="fill:#b6e994;fill-opacity:1" />
+    <path
+       d="m 1162.0769,848.10852 v 57.23822 h 6.7104 l -13.4208,17.4203 -13.4207,-17.4203 h 6.7103 v -57.23822 z"
+       stroke="#172c51"
+       stroke-width="2.91244"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path69"
+       style="fill:#d38181;fill-opacity:1" />
+    <path
+       d="m 1263.2124,497.49305 h 205.2668"
+       stroke="#000000"
+       stroke-width="0.602089"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path70"
+       style="stroke-width:4.99998;stroke-dasharray:none" />
+    <path
+       d="m 1263.2124,850.82802 h 205.2668"
+       stroke="#000000"
+       stroke-width="0.602089"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path71"
+       style="stroke-width:4.99998;stroke-dasharray:none" />
+    <path
+       d="m 1366.5441,519.00482 v 308.86499 h -1.9868 V 519.00482 Z m -12.9256,3.80895 11.9322,-22.85942 11.9321,22.85942 z m 23.8643,301.24423 -11.9321,22.85941 -11.9322,-22.85941 z"
+       fill="#4472c4"
+       id="path72"
+       style="fill:#000080;stroke-width:2.91956"
+       sodipodi:nodetypes="ccccccccccccc" />
+    <path
+       d="M 1309.0867,485.03452 V 427.7963 h -6.7104 l 13.4208,-17.4203 13.4208,17.4203 h -6.7104 v 57.23822 z"
+       stroke="#172c51"
+       stroke-width="2.91244"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path73"
+       style="fill:#dde9af;fill-opacity:1" />
+    <path
+       d="m 1430.5948,483.19948 2e-4,-57.70638 h -1.6445 l -2e-4,57.70638 z m 9.0448,-54.41752 -9.8668,-19.73368 -9.8669,19.73368 z"
+       fill="#4472c4"
+       id="path74"
+       style="fill:#5075b8;fill-opacity:1;stroke-width:2.46671" />
+    <path
+       d="m 1448.0368,408.57625 11.5344,34.37107 v 2.13866 l -11.5344,34.34148 -3.0636,-1.04096 9.2798,-34.37108 -9.2798,-34.42783 z m -170.1125,1.15733 h 4.4524 v 71.51475 h -4.4524 z"
+       fill-rule="evenodd"
+       id="path75"
+       sodipodi:nodetypes="ccccccccccccc"
+       style="stroke-width:2.46671" />
+    <path
+       d="m 1362.1992,409.44613 v 57.23822 h 6.7104 l -13.4207,17.4203 -13.4207,-17.4203 h 6.7103 v -57.23822 z"
+       stroke="#172c51"
+       stroke-width="2.91244"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path76"
+       style="fill:#b6e994;fill-opacity:1" />
+    <path
+       d="M 1388.4703,485.03452 V 427.7963 h -6.7104 l 13.4208,-17.4203 13.4207,17.4203 h -6.7103 v 57.23822 z"
+       stroke="#172c51"
+       stroke-width="2.91244"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path77"
+       style="fill:#d38181;fill-opacity:1" />
+    <path
+       d="m 1301.9492,942.55944 v -57.23822 h -6.7104 l 13.4208,-17.4203 13.4207,17.4203 h -6.7103 v 57.23822 z"
+       stroke="#172c51"
+       stroke-width="2.91244"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path78"
+       style="fill:#dde9af;fill-opacity:1" />
+    <path
+       d="m 1421.8132,866.57323 -2e-4,57.70638 h 1.6445 l 10e-5,-57.70638 z m -9.0449,54.41752 9.8668,19.73364 9.8669,-19.73364 z"
+       fill="#4472c4"
+       id="path79"
+       style="fill:#5075b8;fill-opacity:1;stroke-width:2.46671" />
+    <path
+       d="m 1440.8993,866.10117 11.5343,34.3711 v 2.13863 l -11.5343,34.34148 -3.0636,-1.04096 9.2797,-34.37108 -9.2797,-34.42783 z m -170.1125,1.15732 h 4.4524 v 71.51476 h -4.4524 z"
+       fill-rule="evenodd"
+       id="path80"
+       sodipodi:nodetypes="ccccccccccccc"
+       style="stroke-width:2.46671" />
+    <path
+       d="m 1355.0617,866.97105 v 57.23822 h 6.7104 l -13.4208,17.4203 -13.4207,-17.4203 h 6.7104 v -57.23822 z"
+       stroke="#172c51"
+       stroke-width="2.91244"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path81"
+       style="fill:#b6e994;fill-opacity:1" />
+    <path
+       d="m 1381.3328,942.55944 v -57.23822 h -6.7104 l 13.4207,-17.4203 13.4208,17.4203 h -6.7104 v 57.23822 z"
+       stroke="#172c51"
+       stroke-width="2.91244"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path82"
+       style="fill:#d38181;fill-opacity:1" />
+    <path
+       d="m 1493.2421,479.49299 h 205.2668"
+       stroke="#000000"
+       stroke-width="0.602089"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path83"
+       style="stroke-width:4.99998;stroke-dasharray:none" />
+    <path
+       d="m 1493.2421,866.82807 h 205.2668"
+       stroke="#000000"
+       stroke-width="0.602089"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path84"
+       style="stroke-width:4.99998;stroke-dasharray:none" />
+    <path
+       d="m 1596.5737,503.00489 v 340.86497 h -1.9867 V 503.00489 Z m -12.9255,3.80895 11.9322,-22.85942 11.9321,22.85942 z m 23.8643,333.2442 -11.9321,22.85942 -11.9322,-22.85942 z"
+       fill="#4472c4"
+       id="path85"
+       style="fill:#000080;stroke-width:2.91956"
+       sodipodi:nodetypes="ccccccccccccc" />
+    <path
+       d="m 1552.5372,391.44608 v 57.23821 h 6.7104 l -13.4208,17.4203 -13.4208,-17.4203 h 6.7104 v -57.23821 z"
+       stroke="#172c51"
+       stroke-width="2.91244"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path86"
+       style="fill:#dde9af;fill-opacity:1" />
+    <path
+       d="m 1660.6245,465.19942 2e-4,-57.70637 h -1.6445 l -2e-4,57.70637 z m 9.0448,-54.41752 -9.8668,-19.73367 -9.8669,19.73367 z"
+       fill="#4472c4"
+       id="path87"
+       style="fill:#5075b8;fill-opacity:1;stroke-width:2.46671" />
+    <path
+       d="m 1678.0665,390.57619 11.5344,34.37108 v 2.13865 l -11.5344,34.34148 -3.0636,-1.04096 9.2798,-34.37107 -9.2798,-34.42784 z m -170.1125,1.15733 h 4.4524 v 71.51476 h -4.4524 z"
+       fill-rule="evenodd"
+       id="path88"
+       sodipodi:nodetypes="ccccccccccccc"
+       style="stroke-width:2.46671" />
+    <path
+       d="m 1578.8082,467.03447 v -57.23822 h -6.7104 l 13.4208,-17.4203 13.4207,17.4203 h -6.7103 v 57.23822 z"
+       stroke="#172c51"
+       stroke-width="2.91244"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path89"
+       style="fill:#b6e994;fill-opacity:1" />
+    <path
+       d="m 1618.5,467.03447 v -57.23822 h -6.7104 l 13.4207,-17.4203 13.4208,17.4203 h -6.7104 v 57.23822 z"
+       stroke="#172c51"
+       stroke-width="2.91244"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path90"
+       style="fill:#d38181;fill-opacity:1" />
+    <path
+       d="m 1545.3996,882.9711 v 57.23821 h 6.7104 l -13.4208,17.4203 -13.4207,-17.4203 h 6.7104 V 882.9711 Z"
+       stroke="#172c51"
+       stroke-width="2.91244"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path91"
+       style="fill:#dde9af;fill-opacity:1" />
+    <path
+       d="m 1651.8429,882.57328 -3e-4,57.70637 h 1.6445 l 2e-4,-57.70637 z m -9.0449,54.41752 9.8668,19.73364 9.8669,-19.73364 z"
+       fill="#4472c4"
+       id="path92"
+       style="fill:#5075b8;fill-opacity:1;stroke-width:2.46671" />
+    <path
+       d="m 1670.929,882.10121 11.5343,34.37111 v 2.13862 l -11.5343,34.34148 -3.0637,-1.04096 9.2798,-34.37107 -9.2798,-34.42784 z m -170.1125,1.15733 h 4.4524 v 71.51476 h -4.4524 z"
+       fill-rule="evenodd"
+       id="path93"
+       sodipodi:nodetypes="ccccccccccccc"
+       style="stroke-width:2.46671" />
+    <path
+       d="m 1571.6707,958.55949 v -57.23822 h -6.7104 l 13.4208,-17.4203 13.4207,17.4203 h -6.7104 v 57.23822 z"
+       stroke="#172c51"
+       stroke-width="2.91244"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path94"
+       style="fill:#b6e994;fill-opacity:1" />
+    <path
+       d="m 1611.3625,958.55949 v -57.23822 h -6.7105 l 13.4208,-17.4203 13.4207,17.4203 h -6.7103 v 57.23822 z"
+       stroke="#172c51"
+       stroke-width="2.91244"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path95"
+       style="fill:#d38181;fill-opacity:1" />
+    <path
+       d="M 1719.8592,463.27733 H 1925.126"
+       stroke="#000000"
+       stroke-width="0.602089"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path96"
+       style="stroke-width:4.99998;stroke-dasharray:none" />
+    <path
+       d="M 1719.8592,868.61246 H 1925.126"
+       stroke="#000000"
+       stroke-width="0.602089"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path97"
+       style="stroke-width:4.99998;stroke-dasharray:none" />
+    <path
+       d="m 1823.1908,486.78926 v 358.86499 h -1.9867 V 486.78926 Z m -12.9255,3.80895 11.9322,-22.85942 11.9321,22.85942 z m 23.8643,351.24423 -11.9321,22.85941 -11.9322,-22.85941 z"
+       fill="#4472c4"
+       id="path98"
+       style="fill:#000080;stroke-width:2.91956"
+       sodipodi:nodetypes="ccccccccccccc" />
+    <path
+       d="m 1765.7335,450.8188 v -57.23821 h -6.7104 l 13.4208,-17.4203 13.4207,17.4203 h -6.7103 v 57.23821 z"
+       stroke="#172c51"
+       stroke-width="2.91244"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path99"
+       style="fill:#dde9af;fill-opacity:1" />
+    <path
+       d="m 1887.2416,448.98376 2e-4,-57.70637 h -1.6445 l -2e-4,57.70637 z m 9.0448,-54.41752 -9.8668,-19.73367 -9.8669,19.73367 z"
+       fill="#4472c4"
+       id="path100"
+       style="fill:#5075b8;fill-opacity:1;stroke-width:2.46671" />
+    <path
+       d="m 1904.6836,374.36053 11.5344,34.37107 v 2.13866 l -11.5344,34.34148 -3.0636,-1.04096 9.2797,-34.37107 -9.2797,-34.42784 z m -170.1125,1.15733 h 4.4524 v 71.51476 h -4.4524 z"
+       fill-rule="evenodd"
+       id="path101"
+       sodipodi:nodetypes="ccccccccccccc"
+       style="stroke-width:2.46671" />
+    <path
+       d="m 1805.4253,450.8188 v -57.23821 h -6.7104 l 13.4208,-17.4203 13.4207,17.4203 h -6.7103 v 57.23821 z"
+       stroke="#172c51"
+       stroke-width="2.91244"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path102"
+       style="fill:#b6e994;fill-opacity:1" />
+    <path
+       d="m 1845.1171,450.8188 v -57.23821 h -6.7104 l 13.4207,-17.4203 13.4208,17.4203 h -6.7104 v 57.23821 z"
+       stroke="#172c51"
+       stroke-width="2.91244"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path103"
+       style="fill:#d38181;fill-opacity:1" />
+    <path
+       d="m 1758.596,960.34388 v -57.23822 h -6.7104 l 13.4207,-17.4203 13.4208,17.4203 h -6.7104 v 57.23822 z"
+       stroke="#172c51"
+       stroke-width="2.91244"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path104"
+       style="fill:#dde9af;fill-opacity:1" />
+    <path
+       d="m 1878.4599,884.35767 -2e-4,57.70638 h 1.6445 l 2e-4,-57.70638 z m -9.0448,54.41752 9.8668,19.73364 9.8669,-19.73364 z"
+       fill="#4472c4"
+       id="path105"
+       style="fill:#5075b8;fill-opacity:1;stroke-width:2.46671" />
+    <path
+       d="m 1897.5461,883.88561 11.5343,34.3711 v 2.13863 l -11.5343,34.34148 -3.0637,-1.04096 9.2798,-34.37108 -9.2798,-34.42783 z m -170.1125,1.15732 h 4.4524 v 71.51476 h -4.4524 z"
+       fill-rule="evenodd"
+       id="path106"
+       sodipodi:nodetypes="ccccccccccccc"
+       style="stroke-width:2.46671" />
+    <path
+       d="m 1798.2878,960.34388 v -57.23822 h -6.7104 l 13.4208,-17.4203 13.4207,17.4203 h -6.7104 v 57.23822 z"
+       stroke="#172c51"
+       stroke-width="2.91244"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path107"
+       style="fill:#b6e994;fill-opacity:1" />
+    <path
+       d="m 1837.9796,960.34388 v -57.23822 h -6.7105 l 13.4208,-17.4203 13.4207,17.4203 h -6.7103 v 57.23822 z"
+       stroke="#172c51"
+       stroke-width="2.91244"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path108"
+       style="fill:#d38181;fill-opacity:1" />
+    <g
+       id="g158"
+       transform="matrix(2.9830355,0,0,2.9830355,806.00731,-253.08436)">
+      <g
+         id="g111"
+         transform="translate(-2.681832)">
+        <g
+           transform="matrix(0.71559066,0,0,0.71559066,-626.13367,76.757015)"
+           id="g4">
+          <text
+             font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+             font-weight="400"
+             font-size="24px"
+             transform="translate(594.813,335)"
+             id="text1-0">𝜈</text>
+          <text
+             font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+             font-weight="400"
+             font-size="18px"
+             transform="translate(605.993,340)"
+             id="text2-9">𝑒</text>
+          <text
+             font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+             font-weight="400"
+             font-size="24px"
+             transform="translate(617.013,335)"
+             id="text3-4">|</text>
+          <text
+             font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+             font-weight="400"
+             font-size="24px"
+             transform="translate(624.68,335)"
+             id="text4"></text>
+        </g>
+        <path
+           d="m -174.56106,304.8625 v 12.16589 h 1.42629 l -2.85257,3.70266 -2.85256,-3.70266 h 1.42627 V 304.8625 Z"
+           stroke="#172c51"
+           stroke-width="0.619034"
+           stroke-miterlimit="8"
+           fill="#4472c4"
+           fill-rule="evenodd"
+           id="path109"
+           style="fill:#ddff55" />
+        <path
+           d="m -166.12462,304.8625 v 12.16589 h 1.42629 l -2.85257,3.70266 -2.85255,-3.70266 h 1.42627 V 304.8625 Z"
+           stroke="#172c51"
+           stroke-width="0.619034"
+           stroke-miterlimit="8"
+           fill="#4472c4"
+           fill-rule="evenodd"
+           id="path110"
+           style="fill:#7fff2a" />
+        <path
+           d="m -157.68817,304.8625 v 12.16589 h 1.42629 l -2.85257,3.70266 -2.85256,-3.70266 h 1.42627 V 304.8625 Z"
+           stroke="#172c51"
+           stroke-width="0.619034"
+           stroke-miterlimit="8"
+           fill="#4472c4"
+           fill-rule="evenodd"
+           id="path111"
+           style="fill:#ff5555" />
+      </g>
+      <g
+         transform="matrix(0.71559066,0,0,0.71559066,-628.81551,76.757015)"
+         id="g114">
+        <text
+           font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+           font-weight="400"
+           font-size="24px"
+           transform="translate(594.813,335)"
+           id="text111">𝜈</text>
+        <text
+           font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+           font-weight="400"
+           font-size="18px"
+           transform="translate(605.993,340)"
+           id="text112">𝑒</text>
+        <text
+           font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+           font-weight="400"
+           font-size="24px"
+           transform="translate(617.013,335)"
+           id="text113">|</text>
+        <text
+           font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+           font-weight="400"
+           font-size="24px"
+           transform="translate(624.68,335)"
+           id="text114"></text>
+      </g>
+      <path
+         d="m -177.2429,304.8625 v 12.16589 h 1.42629 l -2.85257,3.70266 -2.85256,-3.70266 h 1.42627 V 304.8625 Z"
+         stroke="#172c51"
+         stroke-width="0.619034"
+         stroke-miterlimit="8"
+         fill="#4472c4"
+         fill-rule="evenodd"
+         id="path114"
+         style="fill:#dde9af;fill-opacity:1" />
+      <path
+         d="m -168.80646,304.8625 v 12.16589 h 1.42629 l -2.85257,3.70266 -2.85255,-3.70266 h 1.42627 V 304.8625 Z"
+         stroke="#172c51"
+         stroke-width="0.619034"
+         stroke-miterlimit="8"
+         fill="#4472c4"
+         fill-rule="evenodd"
+         id="path115"
+         style="fill:#b6e994;fill-opacity:1" />
+      <path
+         d="m -160.37001,304.8625 v 12.16589 h 1.42629 l -2.85257,3.70266 -2.85256,-3.70266 h 1.42627 V 304.8625 Z"
+         stroke="#172c51"
+         stroke-width="0.619034"
+         stroke-miterlimit="8"
+         fill="#4472c4"
+         fill-rule="evenodd"
+         id="path116"
+         style="fill:#d38181;fill-opacity:1" />
+    </g>
+    <g
+       id="g157"
+       transform="matrix(2.9830355,0,0,2.9830355,784.00731,-253.08436)">
+      <g
+         transform="matrix(0.71559066,0,0,0.71559066,-546.69887,76.757015)"
+         id="g119">
+        <text
+           font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+           font-weight="400"
+           font-size="24px"
+           transform="translate(594.813,335)"
+           id="text116">𝜈</text>
+        <text
+           font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+           font-weight="400"
+           font-size="18px"
+           transform="translate(605.993,340)"
+           id="text117">𝑒</text>
+        <text
+           font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+           font-weight="400"
+           font-size="24px"
+           transform="translate(617.013,335)"
+           id="text118">|</text>
+        <text
+           font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+           font-weight="400"
+           font-size="24px"
+           transform="translate(624.68,335)"
+           id="text119"></text>
+      </g>
+      <path
+         d="M -97.978797,320.92869 V 308.7628 h -1.42629 l 2.85257,-3.70266 2.85256,3.70266 h -1.42627 v 12.16589 z"
+         stroke="#172c51"
+         stroke-width="0.619034"
+         stroke-miterlimit="8"
+         fill="#4472c4"
+         fill-rule="evenodd"
+         id="path119"
+         style="fill:#dde9af;fill-opacity:1" />
+      <path
+         d="m -86.689808,304.8625 v 12.16589 h 1.42629 l -2.85257,3.70266 -2.85255,-3.70266 h 1.42627 V 304.8625 Z"
+         stroke="#172c51"
+         stroke-width="0.619034"
+         stroke-miterlimit="8"
+         fill="#4472c4"
+         fill-rule="evenodd"
+         id="path120"
+         style="fill:#b6e994;fill-opacity:1" />
+      <path
+         d="m -78.253358,304.8625 v 12.16589 h 1.42629 l -2.85257,3.70266 -2.85256,-3.70266 h 1.42627 V 304.8625 Z"
+         stroke="#172c51"
+         stroke-width="0.619034"
+         stroke-miterlimit="8"
+         fill="#4472c4"
+         fill-rule="evenodd"
+         id="path121"
+         style="fill:#d38181;fill-opacity:1" />
+    </g>
+    <g
+       id="g156"
+       transform="matrix(2.9830355,0,0,2.9830355,784.00731,-257.10004)">
+      <g
+         transform="matrix(0.71559066,0,0,0.71559066,-463.23342,78.103189)"
+         id="g124">
+        <text
+           font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+           font-weight="400"
+           font-size="24px"
+           transform="translate(594.813,335)"
+           id="text121">𝜈</text>
+        <text
+           font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+           font-weight="400"
+           font-size="18px"
+           transform="translate(605.993,340)"
+           id="text122">𝑒</text>
+        <text
+           font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+           font-weight="400"
+           font-size="24px"
+           transform="translate(617.013,335)"
+           id="text123">|</text>
+        <text
+           font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+           font-weight="400"
+           font-size="24px"
+           transform="translate(624.68,335)"
+           id="text124"></text>
+      </g>
+      <path
+         d="m -11.660801,306.20867 v 12.16589 h 1.42629 l -2.85257,3.70266 -2.85256,-3.70266 h 1.42627 v -12.16589 z"
+         stroke="#172c51"
+         stroke-width="0.619034"
+         stroke-miterlimit="8"
+         fill="#4472c4"
+         fill-rule="evenodd"
+         id="path124"
+         style="fill:#dde9af;fill-opacity:1" />
+      <path
+         d="m -6.0768981,322.27486 v -12.16589 h -1.42629 l 2.85257,-3.70266 2.85255,3.70266 h -1.42627 v 12.16589 z"
+         stroke="#172c51"
+         stroke-width="0.619034"
+         stroke-miterlimit="8"
+         fill="#4472c4"
+         fill-rule="evenodd"
+         id="path125"
+         style="fill:#b6e994;fill-opacity:1" />
+      <path
+         d="m 5.2120892,306.20867 v 12.16589 h 1.42629 l -2.85257,3.70266 -2.85255999,-3.70266 H 2.3595192 v -12.16589 z"
+         stroke="#172c51"
+         stroke-width="0.619034"
+         stroke-miterlimit="8"
+         fill="#4472c4"
+         fill-rule="evenodd"
+         id="path126"
+         style="fill:#d38181;fill-opacity:1" />
+    </g>
+    <g
+       id="g155"
+       transform="matrix(2.9830355,0,0,2.9830355,784.00731,-253.08436)">
+      <g
+         transform="matrix(0.71559066,0,0,0.71559066,-385.83101,76.757015)"
+         id="g129">
+        <text
+           font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+           font-weight="400"
+           font-size="24px"
+           transform="translate(594.813,335)"
+           id="text126">𝜈</text>
+        <text
+           font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+           font-weight="400"
+           font-size="18px"
+           transform="translate(605.993,340)"
+           id="text127">𝑒</text>
+        <text
+           font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+           font-weight="400"
+           font-size="24px"
+           transform="translate(617.013,335)"
+           id="text128">|</text>
+        <text
+           font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+           font-weight="400"
+           font-size="24px"
+           transform="translate(624.68,335)"
+           id="text129"></text>
+      </g>
+      <path
+         d="m 65.741603,304.8625 v 12.16589 h 1.42629 l -2.85257,3.70266 -2.85256,-3.70266 h 1.42627 V 304.8625 Z"
+         stroke="#172c51"
+         stroke-width="0.619034"
+         stroke-miterlimit="8"
+         fill="#4472c4"
+         fill-rule="evenodd"
+         id="path129"
+         style="fill:#dde9af;fill-opacity:1" />
+      <path
+         d="m 74.178043,304.8625 v 12.16589 h 1.42629 l -2.85257,3.70266 -2.85255,-3.70266 h 1.42627 V 304.8625 Z"
+         stroke="#172c51"
+         stroke-width="0.619034"
+         stroke-miterlimit="8"
+         fill="#4472c4"
+         fill-rule="evenodd"
+         id="path130"
+         style="fill:#b6e994;fill-opacity:1" />
+      <path
+         d="M 79.761944,320.92869 V 308.7628 h -1.42629 l 2.85257,-3.70266 2.85256,3.70266 h -1.42627 v 12.16589 z"
+         stroke="#172c51"
+         stroke-width="0.619034"
+         stroke-miterlimit="8"
+         fill="#4472c4"
+         fill-rule="evenodd"
+         id="path131"
+         style="fill:#d38181;fill-opacity:1" />
+    </g>
+    <g
+       id="g154"
+       transform="matrix(2.9830355,0,0,2.9830355,784.00731,-257.10004)">
+      <g
+         transform="matrix(0.71559066,0,0,0.71559066,-306.40934,78.103189)"
+         id="g134">
+        <text
+           font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+           font-weight="400"
+           font-size="24px"
+           transform="translate(594.813,335)"
+           id="text131">𝜈</text>
+        <text
+           font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+           font-weight="400"
+           font-size="18px"
+           transform="translate(605.993,340)"
+           id="text132">𝑒</text>
+        <text
+           font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+           font-weight="400"
+           font-size="24px"
+           transform="translate(617.013,335)"
+           id="text133">|</text>
+        <text
+           font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+           font-weight="400"
+           font-size="24px"
+           transform="translate(624.68,335)"
+           id="text134"></text>
+      </g>
+      <path
+         d="m 142.31071,322.27486 v -12.16589 h -1.42629 l 2.85257,-3.70266 2.85256,3.70266 h -1.42627 v 12.16589 z"
+         stroke="#172c51"
+         stroke-width="0.619034"
+         stroke-miterlimit="8"
+         fill="#4472c4"
+         fill-rule="evenodd"
+         id="path134"
+         style="fill:#dde9af;fill-opacity:1" />
+      <path
+         d="m 150.74716,322.27486 v -12.16589 h -1.42629 l 2.85257,-3.70266 2.85255,3.70266 h -1.42627 v 12.16589 z"
+         stroke="#172c51"
+         stroke-width="0.619034"
+         stroke-miterlimit="8"
+         fill="#4472c4"
+         fill-rule="evenodd"
+         id="path135"
+         style="fill:#b6e994;fill-opacity:1" />
+      <path
+         d="m 162.03615,306.20867 v 12.16589 h 1.42629 l -2.85257,3.70266 -2.85256,-3.70266 h 1.42627 v -12.16589 z"
+         stroke="#172c51"
+         stroke-width="0.619034"
+         stroke-miterlimit="8"
+         fill="#4472c4"
+         fill-rule="evenodd"
+         id="path136"
+         style="fill:#d38181;fill-opacity:1" />
+    </g>
+    <g
+       id="g153"
+       transform="matrix(2.9830355,0,0,2.9830355,784.00731,-251.07651)">
+      <g
+         transform="matrix(0.71559066,0,0,0.71559066,-229.00956,76.083927)"
+         id="g139">
+        <text
+           font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+           font-weight="400"
+           font-size="24px"
+           transform="translate(594.813,335)"
+           id="text136">𝜈</text>
+        <text
+           font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+           font-weight="400"
+           font-size="18px"
+           transform="translate(605.993,340)"
+           id="text137">𝑒</text>
+        <text
+           font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+           font-weight="400"
+           font-size="24px"
+           transform="translate(617.013,335)"
+           id="text138">|</text>
+        <text
+           font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+           font-weight="400"
+           font-size="24px"
+           transform="translate(624.68,335)"
+           id="text139"></text>
+      </g>
+      <path
+         d="m 219.71049,320.2556 v -12.16589 h -1.42629 l 2.85257,-3.70266 2.85256,3.70266 h -1.42627 v 12.16589 z"
+         stroke="#172c51"
+         stroke-width="0.619034"
+         stroke-miterlimit="8"
+         fill="#4472c4"
+         fill-rule="evenodd"
+         id="path139"
+         style="fill:#dde9af;fill-opacity:1" />
+      <path
+         d="m 230.99948,304.18941 v 12.16589 h 1.42629 l -2.85257,3.70266 -2.85255,-3.70266 h 1.42627 v -12.16589 z"
+         stroke="#172c51"
+         stroke-width="0.619034"
+         stroke-miterlimit="8"
+         fill="#4472c4"
+         fill-rule="evenodd"
+         id="path140"
+         style="fill:#b6e994;fill-opacity:1" />
+      <path
+         d="m 236.58338,320.2556 v -12.16589 h -1.42629 l 2.85257,-3.70266 2.85256,3.70266 h -1.42627 v 12.16589 z"
+         stroke="#172c51"
+         stroke-width="0.619034"
+         stroke-miterlimit="8"
+         fill="#4472c4"
+         fill-rule="evenodd"
+         id="path141"
+         style="fill:#d38181;fill-opacity:1" />
+    </g>
+    <g
+       id="g152"
+       transform="matrix(2.9830355,0,0,2.9830355,784.00731,-249.06867)">
+      <g
+         transform="matrix(0.71559066,0,0,0.71559066,-152.27236,75.41084)"
+         id="g144">
+        <text
+           font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+           font-weight="400"
+           font-size="24px"
+           transform="translate(594.813,335)"
+           id="text141">𝜈</text>
+        <text
+           font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+           font-weight="400"
+           font-size="18px"
+           transform="translate(605.993,340)"
+           id="text142">𝑒</text>
+        <text
+           font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+           font-weight="400"
+           font-size="24px"
+           transform="translate(617.013,335)"
+           id="text143">|</text>
+        <text
+           font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+           font-weight="400"
+           font-size="24px"
+           transform="translate(624.68,335)"
+           id="text144"></text>
+      </g>
+      <path
+         d="m 299.30024,303.51632 v 12.16589 h 1.42629 l -2.85257,3.70266 -2.85256,-3.70266 h 1.42627 v -12.16589 z"
+         stroke="#172c51"
+         stroke-width="0.619034"
+         stroke-miterlimit="8"
+         fill="#4472c4"
+         fill-rule="evenodd"
+         id="path144"
+         style="fill:#dde9af;fill-opacity:1" />
+      <path
+         d="m 304.88414,319.58251 v -12.16589 h -1.42629 l 2.85257,-3.70266 2.85255,3.70266 h -1.42627 v 12.16589 z"
+         stroke="#172c51"
+         stroke-width="0.619034"
+         stroke-miterlimit="8"
+         fill="#4472c4"
+         fill-rule="evenodd"
+         id="path145"
+         style="fill:#b6e994;fill-opacity:1" />
+      <path
+         d="m 313.32058,319.58251 v -12.16589 h -1.42629 l 2.85257,-3.70266 2.85256,3.70266 h -1.42627 v 12.16589 z"
+         stroke="#172c51"
+         stroke-width="0.619034"
+         stroke-miterlimit="8"
+         fill="#4472c4"
+         fill-rule="evenodd"
+         id="path146"
+         style="fill:#d38181;fill-opacity:1" />
+    </g>
+    <g
+       id="g151"
+       transform="matrix(2.9830355,0,0,2.9830355,784.00731,-245.05299)">
+      <g
+         transform="matrix(0.71559066,0,0,0.71559066,-76.221383,74.064666)"
+         id="g149">
+        <text
+           font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+           font-weight="400"
+           font-size="24px"
+           transform="translate(594.813,335)"
+           id="text146">𝜈</text>
+        <text
+           font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+           font-weight="400"
+           font-size="18px"
+           transform="translate(605.993,340)"
+           id="text147">𝑒</text>
+        <text
+           font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+           font-weight="400"
+           font-size="24px"
+           transform="translate(617.013,335)"
+           id="text148">|</text>
+        <text
+           font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+           font-weight="400"
+           font-size="24px"
+           transform="translate(624.68,335)"
+           id="text149"></text>
+      </g>
+      <path
+         d="m 372.49867,318.23634 v -12.16589 h -1.42629 l 2.85257,-3.70266 2.85256,3.70266 h -1.42627 v 12.16589 z"
+         stroke="#172c51"
+         stroke-width="0.619034"
+         stroke-miterlimit="8"
+         fill="#4472c4"
+         fill-rule="evenodd"
+         id="path149"
+         style="fill:#dde9af;fill-opacity:1" />
+      <path
+         d="m 380.93512,318.23634 v -12.16589 h -1.42629 l 2.85257,-3.70266 2.85255,3.70266 h -1.42627 v 12.16589 z"
+         stroke="#172c51"
+         stroke-width="0.619034"
+         stroke-miterlimit="8"
+         fill="#4472c4"
+         fill-rule="evenodd"
+         id="path150"
+         style="fill:#b6e994;fill-opacity:1" />
+      <path
+         d="m 389.37156,318.23634 v -12.16589 h -1.42629 l 2.85257,-3.70266 2.85256,3.70266 h -1.42627 v 12.16589 z"
+         stroke="#172c51"
+         stroke-width="0.619034"
+         stroke-miterlimit="8"
+         fill="#4472c4"
+         fill-rule="evenodd"
+         id="path151"
+         style="fill:#d38181;fill-opacity:1" />
+    </g>
+    <g
+       transform="matrix(2.1346323,0,0,2.1346323,1194.2913,-92.586049)"
+       id="g161">
+      <text
+         font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+         font-weight="400"
+         font-size="24px"
+         transform="translate(594.813,335)"
+         id="text158">𝜈</text>
+      <text
+         font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+         font-weight="400"
+         font-size="18px"
+         transform="translate(605.993,340)"
+         id="text159">𝑒</text>
+      <text
+         font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+         font-weight="400"
+         font-size="24px"
+         transform="translate(617.013,335)"
+         id="text160">|</text>
+      <text
+         font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+         font-weight="400"
+         font-size="24px"
+         transform="translate(624.68,335)"
+         id="text161"></text>
+    </g>
+    <path
+       d="m 2532.8392,635.78687 v -36.29128 h -4.2547 l 8.5093,-11.04517 8.5093,11.04517 h -4.2546 v 36.29128 z"
+       stroke="#172c51"
+       stroke-width="1.8466"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path161"
+       style="fill:#dde9af;fill-opacity:1" />
+    <path
+       d="m 2558.0054,635.78687 v -36.29128 h -4.2547 l 8.5093,-11.04517 8.5093,11.04517 h -4.2546 v 36.29128 z"
+       stroke="#172c51"
+       stroke-width="1.8466"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path162"
+       style="fill:#b6e994;fill-opacity:1" />
+    <path
+       d="m 2583.1716,635.78687 v -36.29128 h -4.2547 l 8.5093,-11.04517 8.5093,11.04517 h -4.2546 v 36.29128 z"
+       stroke="#172c51"
+       stroke-width="1.8466"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path163"
+       style="fill:#d38181;fill-opacity:1" />
+    <path
+       d="m 2607.1717,635.78687 v -36.29128 h -4.2547 l 8.5093,-11.04517 8.5093,11.04517 h -4.2546 v 36.29128 z"
+       stroke="#172c51"
+       stroke-width="1.8466"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path164"
+       style="fill:#be41be;fill-opacity:1" />
+    <g
+       transform="matrix(2.1346323,0,0,2.1346323,1195.0011,7.1860482)"
+       id="g167">
+      <text
+         font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+         font-weight="400"
+         font-size="24px"
+         transform="translate(594.813,335)"
+         id="text164">𝜈</text>
+      <text
+         font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+         font-weight="400"
+         font-size="18px"
+         transform="translate(605.993,340)"
+         id="text165">𝑒</text>
+      <text
+         font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+         font-weight="400"
+         font-size="24px"
+         transform="translate(617.013,335)"
+         id="text166">|</text>
+      <text
+         font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+         font-weight="400"
+         font-size="24px"
+         transform="translate(624.68,335)"
+         id="text167"></text>
+    </g>
+    <path
+       d="m 2533.549,735.55894 v -36.29128 h -4.2546 l 8.5093,-11.04517 8.5093,11.04517 h -4.2546 v 36.29128 z"
+       stroke="#172c51"
+       stroke-width="1.8466"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path167"
+       style="fill:#dde9af;fill-opacity:1" />
+    <path
+       d="m 2558.7153,735.55894 v -36.29128 h -4.2547 l 8.5093,-11.04517 8.5093,11.04517 h -4.2546 v 36.29128 z"
+       stroke="#172c51"
+       stroke-width="1.8466"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path168"
+       style="fill:#b6e994;fill-opacity:1" />
+    <path
+       d="m 2583.8815,735.55894 v -36.29128 h -4.2547 l 8.5093,-11.04517 8.5093,11.04517 h -4.2546 v 36.29128 z"
+       stroke="#172c51"
+       stroke-width="1.8466"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path169"
+       style="fill:#d38181;fill-opacity:1" />
+    <path
+       d="m 2616.3908,687.63292 v 36.29129 h 4.2547 l -8.5093,11.04516 -8.5093,-11.04516 h 4.2546 v -36.29129 z"
+       stroke="#172c51"
+       stroke-width="1.8466"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path170"
+       style="fill:#be41be;fill-opacity:1" />
+    <path
+       d="m 1952.6784,464.73022 h 9.9856 v 3.04273 h -9.9856 z m 17.4748,0 h 9.9856 v 3.04273 h -9.9856 z m 17.4748,0 h 9.9856 v 3.04273 h -9.9856 z m 17.4748,0 h 9.9856 v 3.04273 h -9.9856 z m 17.4748,0 h 9.9856 v 3.04273 h -9.9856 z m 17.4748,0 h 9.9856 v 3.04273 h -9.9856 z m 17.4748,0 h 9.9856 v 3.04273 h -9.9856 z m 17.4748,0 h 9.9856 v 3.04273 h -9.9856 z m 17.4748,0 h 9.9856 v 3.04273 h -9.9856 z m 12.4058,-4.56407 9.9857,6.08542 -9.9857,6.08545 z"
+       fill="#4472c4"
+       id="path1-1"
+       style="fill:#000080;fill-opacity:1;stroke-width:1.37803" />
+    <path
+       d="m 1944.1598,865.96782 h 10.4501 v 3.15886 h -10.4501 z m 18.2877,0 h 10.4501 v 3.15886 h -10.4501 z m 18.2877,0 h 10.4501 v 3.15886 h -10.4501 z m 18.2877,0 h 10.4501 v 3.15886 h -10.4501 z m 18.2877,0 h 10.4501 v 3.15886 h -10.4501 z m 18.2877,0 h 10.4501 v 3.15886 h -10.4501 z m 18.2877,0 h 10.4501 v 3.15886 h -10.4501 z m 18.2876,0 h 10.4502 v 3.15886 h -10.4502 z m 18.2878,0 h 10.4501 v 3.15886 h -10.4501 z m 12.9829,-4.73825 10.4501,6.31768 -10.4501,6.31768 z"
+       fill="#4472c4"
+       id="path171"
+       style="fill:#000080;fill-opacity:1;stroke-width:1.43636" />
+    <path
+       d="m 2183.6598,708.57225 h 255.432 v 1.53346 h -255.432 z m 252.3627,-8.44327 18.4201,9.21 -18.4201,9.21 z"
+       fill="#4472c4"
+       id="path1-7"
+       style="stroke-width:2.3025"
+       sodipodi:nodetypes="ccccccccc" />
+    <path
+       d="m 2307.3023,607.76934 h 133.432 v 1.53346 h -133.432 z m 130.3628,-8.44328 18.42,9.21001 -18.42,9.21 z"
+       fill="#4472c4"
+       id="path188"
+       style="stroke-width:2.3025"
+       sodipodi:nodetypes="ccccccccc" />
+    <path
+       d="m 2125.6993,360.48423 h 301.0722"
+       stroke="#000000"
+       stroke-width="0.602089"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path172"
+       style="fill:#000080;fill-opacity:1;stroke-width:6.44246;stroke-dasharray:none" />
+    <path
+       d="m 2125.6993,386.88555 h 301.0722"
+       stroke="#000000"
+       stroke-width="0.602089"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path173"
+       style="fill:#000080;fill-opacity:1;stroke-width:6.44246;stroke-dasharray:none" />
+    <path
+       d="m 2125.6993,413.28688 h 301.0722"
+       stroke="#000000"
+       stroke-width="0.602089"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path174"
+       style="fill:#000080;fill-opacity:1;stroke:#696969;stroke-width:4.40022;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:tile-cx="2292.433"
+       inkscape:tile-cy="479.40082"
+       inkscape:tile-w="205.26679"
+       inkscape:tile-h="3.0000089"
+       inkscape:tile-x0="2189.7996"
+       inkscape:tile-y0="477.90081" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#path174"
+       xlink:href="#path174"
+       id="use174"
+       style="stroke-width:1.67614;stroke-dasharray:none"
+       transform="translate(1.347971e-5)" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#path174"
+       xlink:href="#path174"
+       transform="translate(1.347971e-5,26.401334)"
+       id="use175"
+       style="stroke-width:1.67614;stroke-dasharray:none" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#path174"
+       xlink:href="#path174"
+       transform="translate(1.347971e-5,52.802669)"
+       id="use176"
+       style="stroke-width:1.67614;stroke-dasharray:none" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#path174"
+       xlink:href="#path174"
+       transform="translate(1.347971e-5,79.203995)"
+       id="use177"
+       style="stroke-width:1.67614;stroke-dasharray:none" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#path174"
+       xlink:href="#path174"
+       transform="translate(1.347971e-5,105.60535)"
+       id="use178"
+       style="stroke-width:1.67614;stroke-dasharray:none" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#path174"
+       xlink:href="#path174"
+       transform="translate(1.347971e-5,132.00668)"
+       id="use179"
+       style="stroke-width:1.67614;stroke-dasharray:none" />
+    <path
+       d="m 2309.2897,381.06317 v 576.86502 h -1.9867 V 381.06317 Z m -12.9255,3.80895 11.9322,-22.85942 11.9321,22.85942 z m 23.8643,569.24425 -11.9321,22.85942 -11.9322,-22.85942 z"
+       fill="#4472c4"
+       id="path186"
+       style="fill:#000080;stroke-width:2.91956"
+       sodipodi:nodetypes="ccccccccccccc" />
+    <path
+       d="m 2184.7251,405.1102 v 524.86504 h -1.9868 V 405.1102 Z m -12.9256,3.80895 11.9322,-22.85942 11.9321,22.85942 z m 23.8643,517.24427 -11.9321,22.85942 -11.9322,-22.85942 z"
+       fill="#4472c4"
+       id="path187"
+       style="fill:#000080;stroke-width:2.91956"
+       sodipodi:nodetypes="ccccccccccccc" />
+    <path
+       d="M 2426.7715,979.97437 H 2125.6993"
+       stroke="#000000"
+       stroke-width="0.602089"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path196"
+       style="fill:#000080;fill-opacity:1;stroke-width:6.44246;stroke-dasharray:none" />
+    <path
+       d="M 2426.7715,953.57304 H 2125.6993"
+       stroke="#000000"
+       stroke-width="0.602089"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path197"
+       style="fill:#000080;fill-opacity:1;stroke-width:6.44246;stroke-dasharray:none" />
+    <path
+       d="M 2426.7715,927.17172 H 2125.6993"
+       stroke="#000000"
+       stroke-width="0.602089"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path198"
+       style="fill:#000080;fill-opacity:1;stroke:#969696;stroke-width:4.40022;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:tile-cx="2292.433"
+       inkscape:tile-cy="479.40082"
+       inkscape:tile-w="205.26679"
+       inkscape:tile-h="3.0000089"
+       inkscape:tile-x0="2189.7996"
+       inkscape:tile-y0="477.90081" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#path174"
+       xlink:href="#path174"
+       id="use198"
+       style="stroke-width:1.67614;stroke-dasharray:none"
+       transform="rotate(180,2276.2353,670.2293)" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#path174"
+       xlink:href="#path174"
+       transform="rotate(180,2276.2353,657.02865)"
+       id="use199"
+       style="stroke-width:1.67614;stroke-dasharray:none" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#path174"
+       xlink:href="#path174"
+       transform="rotate(180,2276.2353,643.82798)"
+       id="use200"
+       style="stroke-width:1.67614;stroke-dasharray:none" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#path174"
+       xlink:href="#path174"
+       transform="rotate(180,2276.2353,630.6273)"
+       id="use201"
+       style="stroke-width:1.67614;stroke-dasharray:none" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#path174"
+       xlink:href="#path174"
+       transform="rotate(180,2276.2353,617.42665)"
+       id="use202"
+       style="stroke-width:1.67614;stroke-dasharray:none" />
+    <use
+       x="0"
+       y="0"
+       inkscape:tiled-clone-of="#path174"
+       xlink:href="#path174"
+       transform="rotate(180,2276.2353,604.22597)"
+       id="use203"
+       style="stroke-width:1.67614;stroke-dasharray:none" />
+    <path
+       d="m 2470.4864,397.9939 v -57.23821 h -6.7104 l 13.4208,-17.4203 13.4207,17.4203 h -6.7103 v 57.23821 z"
+       stroke="#172c51"
+       stroke-width="2.91244"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path203"
+       style="fill:#dde9af;fill-opacity:1" />
+    <path
+       d="m 2623.9945,396.15886 2e-4,-57.70637 h -1.6445 l -2e-4,57.70637 z m 9.0448,-54.41752 -9.8668,-19.73367 -9.8669,19.73367 z"
+       fill="#4472c4"
+       id="path204"
+       style="fill:#5075b8;fill-opacity:1;stroke-width:2.46671" />
+    <path
+       d="m 2649.4365,323.53563 11.5344,34.37107 v 2.13866 l -11.5344,34.34148 -3.0636,-1.04096 9.2797,-34.37107 -9.2797,-34.42784 z m -210.1125,-0.84267 h 4.4524 v 71.51476 h -4.4524 z"
+       fill-rule="evenodd"
+       id="path205"
+       sodipodi:nodetypes="ccccccccccccc"
+       style="stroke-width:2.46671" />
+    <path
+       d="m 2510.1782,397.9939 v -57.23821 h -6.7104 l 13.4208,-17.4203 13.4207,17.4203 h -6.7103 v 57.23821 z"
+       stroke="#172c51"
+       stroke-width="2.91244"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path206"
+       style="fill:#b6e994;fill-opacity:1" />
+    <path
+       d="m 2549.87,397.9939 v -57.23821 h -6.7104 l 13.4207,-17.4203 13.4208,17.4203 h -6.7104 v 57.23821 z"
+       stroke="#172c51"
+       stroke-width="2.91244"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path207"
+       style="fill:#d38181;fill-opacity:1" />
+    <path
+       d="m 2585.87,397.9939 v -57.23821 h -6.7104 l 13.4207,-17.4203 13.4208,17.4203 h -6.7104 v 57.23821 z"
+       stroke="#172c51"
+       stroke-width="2.91244"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path208"
+       style="fill:#be41be;fill-opacity:1" />
+    <path
+       d="m 2470.4864,489.9939 v -57.23821 h -6.7104 l 13.4208,-17.4203 13.4207,17.4203 h -6.7103 v 57.23821 z"
+       stroke="#172c51"
+       stroke-width="2.91244"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path209"
+       style="fill:#dde9af;fill-opacity:1" />
+    <path
+       d="m 2623.9945,488.15886 2e-4,-57.70637 h -1.6445 l -2e-4,57.70637 z m 9.0448,-54.41752 -9.8668,-19.73367 -9.8669,19.73367 z"
+       fill="#4472c4"
+       id="path210"
+       style="fill:#5075b8;fill-opacity:1;stroke-width:2.46671" />
+    <path
+       d="m 2649.4365,415.53563 11.5344,34.37107 v 2.13866 l -11.5344,34.34148 -3.0636,-1.04096 9.2797,-34.37107 -9.2797,-34.42784 z m -210.1125,-0.84267 h 4.4524 v 71.51476 h -4.4524 z"
+       fill-rule="evenodd"
+       id="path211"
+       sodipodi:nodetypes="ccccccccccccc"
+       style="stroke-width:2.46671" />
+    <path
+       d="m 2510.1782,489.9939 v -57.23821 h -6.7104 l 13.4208,-17.4203 13.4207,17.4203 h -6.7103 v 57.23821 z"
+       stroke="#172c51"
+       stroke-width="2.91244"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path212"
+       style="fill:#b6e994;fill-opacity:1" />
+    <path
+       d="m 2549.87,489.9939 v -57.23821 h -6.7104 l 13.4207,-17.4203 13.4208,17.4203 h -6.7104 v 57.23821 z"
+       stroke="#172c51"
+       stroke-width="2.91244"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path213"
+       style="fill:#d38181;fill-opacity:1" />
+    <path
+       d="m 2599.2907,414.40553 v 57.23821 h 6.7104 l -13.4207,17.4203 -13.4208,-17.4203 h 6.7104 v -57.23821 z"
+       stroke="#172c51"
+       stroke-width="2.91244"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path214"
+       style="fill:#be41be;fill-opacity:1" />
+    <path
+       d="m 2470.4864,927.5642 v -57.23821 h -6.7104 l 13.4208,-17.4203 13.4207,17.4203 h -6.7103 v 57.23821 z"
+       stroke="#172c51"
+       stroke-width="2.91244"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path215"
+       style="fill:#dde9af;fill-opacity:1" />
+    <path
+       d="m 2622.3504,851.57797 -2e-4,57.70637 h 1.6445 l 2e-4,-57.70637 z m -9.0448,54.41752 9.8668,19.73367 9.8669,-19.73367 z"
+       fill="#4472c4"
+       id="path216"
+       style="fill:#5075b8;fill-opacity:1;stroke-width:2.46671" />
+    <path
+       d="m 2649.4365,853.10593 11.5344,34.37107 v 2.13866 l -11.5344,34.34148 -3.0636,-1.04096 9.2797,-34.37107 -9.2797,-34.42784 z m -210.1125,-0.84267 h 4.4524 v 71.51476 h -4.4524 z"
+       fill-rule="evenodd"
+       id="path217"
+       sodipodi:nodetypes="ccccccccccccc"
+       style="stroke-width:2.46671" />
+    <path
+       d="m 2510.1782,927.5642 v -57.23821 h -6.7104 l 13.4208,-17.4203 13.4207,17.4203 h -6.7103 v 57.23821 z"
+       stroke="#172c51"
+       stroke-width="2.91244"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path218"
+       style="fill:#b6e994;fill-opacity:1" />
+    <path
+       d="m 2549.87,927.5642 v -57.23821 h -6.7104 l 13.4207,-17.4203 13.4208,17.4203 h -6.7104 v 57.23821 z"
+       stroke="#172c51"
+       stroke-width="2.91244"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path219"
+       style="fill:#d38181;fill-opacity:1" />
+    <path
+       d="m 2599.2907,851.97583 v 57.23821 h 6.7104 l -13.4207,17.4203 -13.4208,-17.4203 h 6.7104 v -57.23821 z"
+       stroke="#172c51"
+       stroke-width="2.91244"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path220"
+       style="fill:#be41be;fill-opacity:1" />
+    <path
+       d="m 2470.4864,1019.5642 v -57.23821 h -6.7104 l 13.4208,-17.4203 13.4207,17.4203 h -6.7103 v 57.23821 z"
+       stroke="#172c51"
+       stroke-width="2.91244"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path221"
+       style="fill:#dde9af;fill-opacity:1" />
+    <path
+       d="m 2622.3504,943.57797 -2e-4,57.70643 h 1.6445 l 2e-4,-57.70643 z m -9.0448,54.41756 9.8668,19.73367 9.8669,-19.73367 z"
+       fill="#4472c4"
+       id="path222"
+       style="fill:#5075b8;fill-opacity:1;stroke-width:2.46671" />
+    <path
+       d="m 2649.4365,945.10593 11.5344,34.37107 v 2.13866 l -11.5344,34.34144 -3.0636,-1.0409 9.2797,-34.37109 -9.2797,-34.42784 z m -210.1125,-0.84267 h 4.4524 v 71.51474 h -4.4524 z"
+       fill-rule="evenodd"
+       id="path223"
+       sodipodi:nodetypes="ccccccccccccc"
+       style="stroke-width:2.46671" />
+    <path
+       d="m 2510.1782,1019.5642 v -57.23821 h -6.7104 l 13.4208,-17.4203 13.4207,17.4203 h -6.7103 v 57.23821 z"
+       stroke="#172c51"
+       stroke-width="2.91244"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path224"
+       style="fill:#b6e994;fill-opacity:1" />
+    <path
+       d="m 2549.87,1019.5642 v -57.23821 h -6.7104 l 13.4207,-17.4203 13.4208,17.4203 h -6.7104 v 57.23821 z"
+       stroke="#172c51"
+       stroke-width="2.91244"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path225"
+       style="fill:#d38181;fill-opacity:1" />
+    <path
+       d="m 2585.87,1019.5642 v -57.23821 h -6.7104 l 13.4207,-17.4203 13.4208,17.4203 h -6.7104 v 57.23821 z"
+       stroke="#172c51"
+       stroke-width="2.91244"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path226"
+       style="fill:#be41be;fill-opacity:1" />
+  </g>
+</svg>
