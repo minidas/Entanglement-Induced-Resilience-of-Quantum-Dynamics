@@ -18,21 +18,22 @@ from scipy.linalg import expm
 
 class Quantum_dot:
 
-    def __init__(self, Omega, N=10):
-        self.Omega = Omega
+    def __init__(self, Omega, N=10,a=[0.2374, 0.2683, 0.1459, 0.0335, 0.0030, 0.0144],phi=[-0.0055, -0.0021, -0.0006, -0.2457, -0.0157], T=1.8e-7):
+        self.Omega = float(Omega)
         self.N = N
-        self.H = self.get_hamiltonian(Omega, N)
-
-    def time_dependent_Omega(self,t):
-        return sin(pi*t/self.T)*(self.a[0]+np.sum([self.a[k]*sin(2*pi*k*t/self.T+self.phi[k]) for k in range(1,num_rand_PS+1)]))
-
-    def get_hamiltonian(self, Omega,a=[0.1225, 0.0672, 0.0394, -0.0297, -0.0228, 0.0040],phi=[0.0022, -0.0138, 0.0028, 0.0114, -0.0595], T=2.5e-7,N=10):
-        IX = qt.tensor(
-            *[qt.sigmax() if i == 0 else qt.qeye(2) for i in range(N)]
-        )
         self.a=a
         self.phi=phi
         self.T=T
+        self.H = self.get_hamiltonian(Omega, N)
+
+    def time_dependent_Omega(self,t):
+        return sin(pi*t/self.T)*(self.a[0]+np.sum([self.a[k+1]*sin(2*pi*k*t/self.T+self.phi[k]) for k in range(len(self.phi))]))
+
+    def get_hamiltonian(self, Omega, N=10):
+        IX = qt.tensor(
+            *[qt.sigmax() if i == 0 else qt.qeye(2) for i in range(N)]  
+        )
+        
         return Omega* 0.5* IX*qt.coefficient(self.time_dependent_Omega)
     
 from random_PS import *
@@ -49,6 +50,9 @@ def eigenvector_corresponding_to_maximal_eigenvalue(matrix):
 class analog_QD(Quantum_dot):
     def __init__(self, exact_model, h, J, DeltaE,epsilon):
         self.Omega = exact_model.Omega
+        self.a=exact_model.a
+        self.phi=exact_model.phi
+        self.T=exact_model.T
         self.h = h
         self.J = J
         self.theta = np.arctan(J/2/DeltaE)
@@ -77,11 +81,11 @@ class analog_QD(Quantum_dot):
             *[qt.sigmay() if i == 1 else (qt.sigmaz() if i == 0 else qt.qeye(2)) for i in range(self.N)]
         )
         self.H = (self.get_hamiltonian(self.Omega,self.N) 
-                  + h * IZ + 0.25 * J * ZZ + epsilon*self.Omega*IX
+                  + h * IZ + 0.25 * J * ZZ + epsilon*self.Omega*IX*qt.coefficient(self.time_dependent_Omega)
                   + XZ * qt.coefficient(self.time_dependent_coefficient_XZ)
                   + YZ * qt.coefficient(self.time_dependent_coefficient_YZ))
 
     def time_dependent_coefficient_XZ(self,t):
-        return 0.5*self.theta*self.Omega*cos(self.DeltaE*t)
+        return 0.5*self.theta*self.Omega*cos(self.DeltaE*t)*self.time_dependent_Omega(t)
     def time_dependent_coefficient_YZ(self,t):
-        return -0.5*self.theta*self.Omega*sin(self.DeltaE*t)
+        return -0.5*self.theta*self.Omega*sin(self.DeltaE*t)*self.time_dependent_Omega(t)
