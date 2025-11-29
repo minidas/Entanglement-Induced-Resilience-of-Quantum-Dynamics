@@ -11,14 +11,14 @@ num_rand=256
 
 time=np.linspace(0,final_time,num_steps+1)
 
-N=10
+N=12
 d=2**N
 
 from scipy.linalg import expm
 
 class Quantum_dot:
 
-    def __init__(self, Omega, N=10,a=[0.2374, 0.2683, 0.1459, 0.0335, 0.0030, 0.0144],phi=[-0.0055, -0.0021, -0.0006, -0.2457, -0.0157], T=1.8e-7):
+    def __init__(self, Omega, N=N,a=[0.2374, 0.2683, 0.1459, 0.0335, 0.0030, 0.0144],phi=[-0.0055, -0.0021, -0.0006, -0.2457, -0.0157], T=1.8e-7):
         self.Omega = float(Omega)
         self.N = N
         self.a=a
@@ -29,7 +29,7 @@ class Quantum_dot:
     def time_dependent_Omega(self,t):
         return sin(pi*t/self.T)*(self.a[0]+np.sum([self.a[k+1]*sin(2*pi*k*t/self.T+self.phi[k]) for k in range(len(self.phi))]))
 
-    def get_hamiltonian(self, Omega, N=10):
+    def get_hamiltonian(self, Omega, N=N):
         IX = qt.tensor(
             *[qt.sigmax() if i == 0 else qt.qeye(2) for i in range(N)]  
         )
@@ -73,15 +73,34 @@ class analog_QD(Quantum_dot):
 
         ZZ = qt.tensor(
             *[qt.sigmaz() if i in [0,1] else qt.qeye(2) for i in range(self.N)]
+        )+ qt.tensor(
+            *[qt.sigmaz() if i in [0,2] else qt.qeye(2) for i in range(self.N)]
+        )+ qt.tensor(
+            *[qt.sigmaz() if i in [0,3] else qt.qeye(2) for i in range(self.N)]
+        )+ qt.tensor(
+            *[qt.sigmaz() if i in [0,4] else qt.qeye(2) for i in range(self.N)]
         )
         XZ = qt.tensor(
             *[qt.sigmax() if i == 1 else (qt.sigmaz() if i == 0 else qt.qeye(2)) for i in range(self.N)]
+        )+ qt.tensor(
+            *[qt.sigmax() if i == 2 else (qt.sigmaz() if i == 0 else qt.qeye(2)) for i in range(self.N)]
+        )+ qt.tensor(
+            *[qt.sigmax() if i == 3 else (qt.sigmaz() if i == 0 else qt.qeye(2)) for i in range(self.N)]
+        )+ qt.tensor(
+            *[qt.sigmax() if i == 4 else (qt.sigmaz() if i == 0 else qt.qeye(2)) for i in range(self.N)]
         )
         YZ = qt.tensor(
             *[qt.sigmay() if i == 1 else (qt.sigmaz() if i == 0 else qt.qeye(2)) for i in range(self.N)]
+        )+ qt.tensor(
+            *[qt.sigmay() if i == 2 else (qt.sigmaz() if i == 0 else qt.qeye(2)) for i in range(self.N)]
+        )+ qt.tensor(
+            *[qt.sigmay() if i == 3 else (qt.sigmaz() if i == 0 else qt.qeye(2)) for i in range(self.N)]
+        )+ qt.tensor(
+            *[qt.sigmay() if i == 4 else (qt.sigmaz() if i == 0 else qt.qeye(2)) for i in range(self.N)]
         )
         self.H = (self.get_hamiltonian(self.Omega,self.N) 
-                  + h * IZ + 0.25 * J * ZZ + epsilon*self.Omega*IX*qt.coefficient(self.time_dependent_Omega)
+                #   + h * IZ + 0.25 * J * ZZ + epsilon*self.Omega*IX*qt.coefficient(self.time_dependent_Omega)
+                  + 0.25 * J * ZZ
                   + XZ * qt.coefficient(self.time_dependent_coefficient_XZ)
                   + YZ * qt.coefficient(self.time_dependent_coefficient_YZ))
 
