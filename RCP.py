@@ -62,15 +62,20 @@ class analog_QD(Quantum_dot):
         self.exact_model = exact_model
 
         #local pertubation
-        IX = qt.tensor(
-            *[qt.sigmax() if i == 0 else qt.qeye(2) for i in range(N)]
+        X=qt.tensor(
+            *[qt.sigmax() if i == 0 else qt.qeye(2) for i in range(self.N)]
         )
-        IZ = qt.tensor(
+        Z=qt.tensor(
             *[qt.sigmaz() if i == 0 else qt.qeye(2) for i in range(self.N)]
-        )+qt.tensor(
+        )+ qt.tensor(
             *[qt.sigmaz() if i == 1 else qt.qeye(2) for i in range(self.N)]
+        )+ qt.tensor(
+            *[qt.sigmaz() if i == 2 else qt.qeye(2) for i in range(self.N)]
+        )+ qt.tensor(
+            *[qt.sigmaz() if i == 3 else qt.qeye(2) for i in range(self.N)]
+        )+ qt.tensor(
+            *[qt.sigmaz() if i == 4 else qt.qeye(2) for i in range(self.N)]
         )
-
         ZZ = qt.tensor(
             *[qt.sigmaz() if i in [0,1] else qt.qeye(2) for i in range(self.N)]
         )+ qt.tensor(
@@ -99,8 +104,8 @@ class analog_QD(Quantum_dot):
             *[qt.sigmay() if i == 4 else (qt.sigmaz() if i == 0 else qt.qeye(2)) for i in range(self.N)]
         )
         self.H = (self.get_hamiltonian(self.Omega,self.N) 
-                #   + h * IZ + 0.25 * J * ZZ + epsilon*self.Omega*IX*qt.coefficient(self.time_dependent_Omega)
-                  + 0.25 * J * ZZ
+                  + h * Z + 0.25 * J * ZZ + epsilon*self.Omega*X*qt.coefficient(self.time_dependent_Omega)
+                #   + 0.25 * J * ZZ
                   + XZ * qt.coefficient(self.time_dependent_coefficient_XZ)
                   + YZ * qt.coefficient(self.time_dependent_coefficient_YZ))
 
