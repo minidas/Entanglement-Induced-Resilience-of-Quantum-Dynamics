@@ -27,7 +27,7 @@ class Quantum_dot:
         self.H = self.get_hamiltonian(Omega, N)
 
     def time_dependent_Omega(self,t):
-        return sin(pi*t/self.T)*(self.a[0]+np.sum([self.a[k+1]*sin(2*pi*k*t/self.T+self.phi[k]) for k in range(len(self.phi))]))
+        return sin(pi*t/self.T)*(self.a[0]+np.sum([self.a[k+1]*cos(2*pi*(k+1)*t/self.T+self.phi[k]) for k in range(len(self.phi))]))
 
     def get_hamiltonian(self, Omega, N=N):
         IX = qt.tensor(
