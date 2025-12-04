@@ -218,9 +218,11 @@ if __name__ == "__main__":
         error.append(np.abs(evolved_state.conj().T @ term @ evolved_state))
     plt.plot(range(len(error)), error, marker='o',markersize=4, mfc='#E74C3C', linestyle='', label='Atypical case')
 
-    plt.xlabel('Term Label')
-    plt.ylabel('Absolute Value')
+    plt.xlabel('Term Label',fontsize=14)
+    plt.ylabel('Absolute Value',fontsize=14)
     # plt.xlim(right=171)
+    plt.xticks(fontsize=14)
+    plt.yticks(fontsize=14)
     plt.legend(loc=1)
     plt.title('QIMF model, long-time evolution')
     plt.grid()
