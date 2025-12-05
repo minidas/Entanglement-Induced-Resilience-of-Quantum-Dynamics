@@ -17,7 +17,7 @@ class Fermion_Model:
     def get_target_hamiltonian(self,tunneling = 1.0,coulomb = 4.0):
         # define the target Hamiltonian
         
-        hamiltonian = fermi_hubbard(1, 8, tunneling, coulomb, periodic=True)
+        hamiltonian = fermi_hubbard(2, 4, tunneling, coulomb, periodic=True)
         # print(hamiltonian)
         H_qubit = jordan_wigner(hamiltonian)
         return H_qubit
@@ -29,7 +29,7 @@ class Fermion_Model:
     
 class Analog_Fermion(Fermion_Model):
     def __init__(self,model):
-        hamiltonian = fermi_hubbard(1, 8, model.tunneling, model.coulomb+0.01,periodic=True)
+        hamiltonian = fermi_hubbard(2, 4, model.tunneling, model.coulomb+0.01,periodic=True)
          # print(hamiltonian)
         self.H=jordan_wigner(hamiltonian)
 
