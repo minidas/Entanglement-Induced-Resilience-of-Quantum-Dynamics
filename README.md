@@ -22,3 +22,4 @@ Pickle data is not updated.
 | Figure 3 | 2D_QIMF_analog.ipynb     | Figures/long-time[d,2D].pdf, Figures/one_segment[d,2D].pdf, Figures/long-time[i,2D].pdf, Figures/one_segment[i,2D].pdf, Figures/long-time[di,2D].pdf, Figures/one_segment[di,2D].pdf |
 | Figure 4 | Quantum_dot_2qubit.ipynb | Figures/QD_2qubits.pdf                                       |
 
+DOI badge: [![DOI](https://zenodo.org/badge/1039454554.svg)](https://doi.org/10.5281/zenodo.20020246)
