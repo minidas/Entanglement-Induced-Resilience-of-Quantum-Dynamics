@@ -105,7 +105,6 @@ class analog_QD(Quantum_dot):
         )
         self.H = (self.get_hamiltonian(self.Omega,self.N) 
                   + h * Z + 0.25 * J * ZZ + epsilon*self.Omega*X*qt.coefficient(self.time_dependent_Omega)
-                #   + 0.25 * J * ZZ
                   + XZ * qt.coefficient(self.time_dependent_coefficient_XZ)
                   + YZ * qt.coefficient(self.time_dependent_coefficient_YZ))
 
