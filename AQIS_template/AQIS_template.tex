@@ -1,0 +1,146 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Example of \TeX Format for AQIS Pre-Proceedings
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[a4paper]{article}
+\usepackage{aqis}
+
+\begin{document}
+
+\title{
+   Example of \TeX\ Format for AQIS Pre-Proceedings
+}
+
+\author{
+  AuthorA
+  \affiliation{1}
+   \affiliation{2}
+  \email{username1@domainname1}
+  \and
+ AuthorB
+   \affiliation{2}
+  \email{username2@domainname2}
+  \and
+ AuthorC
+   \affiliation{3}
+  \email{username3@domainname3}
+  }
+  
+\address{1}{
+  Please input affiliation 1 here
+}
+\address{2}{
+  Please input affiliation 2 here
+}
+\address{3}{
+  Please input affiliation 3 here
+}
+
+
+\abstract{
+Please substitute this for your 100-words abstracts.
+}
+
+\keywords{AQIS, template}
+
+
+\maketitle
+
+%########### body
+
+\section{Format of the Manuscripts}
+The camera-ready version should be submitted
+via the camera-ready submission page.
+It should follow the style described below.
+
+\paragraph{Basic Format:}
+
+\begin{itemize}
+  \item
+      When you create PDF file from your manuscript source
+      (especially from MS-Word), please select fonts carefully for
+      some fonts cannot be handled well by PDF creating system.
+  \item
+    The manuscript should
+    not exceed three pages including the title page,
+    using A4-sized papers.
+  \item
+    No page of the manuscript should contain page numbers/page headings.
+\end{itemize}
+
+\paragraph{Layout:}
+
+\begin{itemize}
+  \item
+    The manuscript should
+    have top-, foot-, and side-margins of 2cm, 2.5cm, and 1.5cm,
+    respectively (the title page should have top margin of 3cm).
+  \item
+    The manuscript should begin with a title,
+    followed by names, affiliations and postal addresses of authors,
+    followed by a 100-word abstract and keywords.
+    The main body should use two-column style.
+    E-mail addresses of authors should be placed in footnotes.
+\end{itemize}
+
+\section{Theorems and Proofs}
+
+Our style file prepares the following environments.
+
+\begin{center}
+\begin{tabular}{ll}
+\hline
+Environment name & Heading\\
+\hline
+{\tt definition} & {\bf Definition}\\
+{\tt theorem} & {\bf Theorem}\\
+{\tt lemma} & {\bf Lemma}\\
+{\tt corollary} & {\bf Corollary}\\
+{\tt proposition} & {\bf Proposition}\\
+{\tt example} & {\bf Example}\\
+{\tt remark} & {\bf Remark}\\
+{\tt fact} & {\bf Fact}\\
+{\tt conjecture} & {\bf Conjecture}\\
+\hline
+\end{tabular}
+\end{center}
+
+\section{Figures and Tables}
+
+For figures and tables, the captions should be placed
+below figures and above tables.
+
+\section{Bibliography Styles}
+
+The following bibliography style used in this document is preferable.
+The authors may use common abbreviations for journal and conference names.
+
+\begin{thebibliography}{9}
+
+\bibitem{Grover96}
+L.~K.~Grover.
+\newblock A fast quantum mechanical algorithm for database search.
+\newblock In {\em Proc.\ of the 28th ACM STOC}, pages 212--219, 1996.
+
+\bibitem{Gruska99}
+J.~Gruska.
+\newblock {\em Quantum Computing}.
+\newblock McGraw-Hill, 1999.
+
+\bibitem{Holevo96}
+A.~S.~Holevo.
+\newblock The capacity of quantum channel with general signal states.
+\newblock quant-ph/9611023, 1996.
+
+\bibitem{Sho97SIComp}
+P.~W.~Shor.
+\newblock Polynomial-time algorithms for prime factorization
+and discrete logarithms on a quantum computer.
+\newblock {\em SIAM J. on Comp.}, 26(5):1484--1509, 1997.
+
+\end{thebibliography}
+
+\end{document}
+% end of file
