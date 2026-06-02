@@ -191,7 +191,7 @@ class analog_QD(Quantum_dot):
             *[qt.sigmax() if i == 0 else qt.qeye(2) for i in range(N)]  
         )
         
-        return Omega* 0.5* IX*qt.coefficient(self.low_pass_filter(filter_frequency=40e6, q_factor=1/sqrt(2)))
+        return Omega* 0.5* IX*qt.coefficient(self.low_pass_filter(filter_frequency=20e6, q_factor=1/sqrt(2)))
 
     def time_dependent_coefficient_XZ(self,t):
         return 0.5*self.theta*self.Omega*cos(self.DeltaE*t)*self.time_dependent_Omega(t)
