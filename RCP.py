@@ -2,6 +2,11 @@ from qiskit.quantum_info import SparsePauliOp, Statevector, Pauli
 import numpy as np
 import matplotlib.pyplot as plt
 from math import sqrt,sin, cos, pi
+from types import SimpleNamespace
+
+if not hasattr(np.random, "mtrand"):
+    np.random.mtrand = SimpleNamespace(_rand=np.random.RandomState())
+
 import qutip as qt
 
 final_time=6
